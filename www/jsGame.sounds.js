@@ -10,7 +10,7 @@ function gIsMobileSafari(){
 /** game sounds */
 Sounds = new Array();
 Sounds['drink'] = ['drink.wav','glugglug.wav'];
-
+Sounds['Error_Purchase'] = ['out_of_funds.caf','out_of_funds1.caf','out_of_funds2.caf'];
 
 
 /** play a wav file in sounds/ sub directory */
@@ -51,49 +51,50 @@ function gPlaySoundFromString( filename ){
 }
 
 function gSoundCoin(){
-	gPlaySound("smw_coin.wav");
+	gPlaySound("smw_coin.caf");
 }
 
 function gSoundClick(){
-	gPlaySound("click.wav");
+	gPlaySound("click.caf");
 }
 
 function gSoundPlant(){
-	gPlaySound("slash.wav");
+	gPlaySound("slash.caf");
 }
 
 function gSoundHarvest(){
-	gPlaySound("smw_coin.wav");
+	gPlaySound("smw_coin.caf");
 }
 
 function gSoundLose(){
-	gPlaySound("crazy_fool.wav");
+	gPlaySound("doh.caf");
 }
 
 function gSoundBundle(){
-	gPlaySound("you_got_it_1.wav");
+	gPlaySound("you_got_it_1.caf");
 }	
 
 function gSoundError(){
-	gPlaySound("boing_1.wav");
+	gPlaySound("ouch.caf");
 }
+
+/** nothing planted */
 function gSoundTooLate(){
-	gPlaySound("metal_clang.wav");
+	gPlaySound("buyseed.caf");
 }
 
 function gSoundTooEarly(){
-	gPlaySound("picklock.wav");
+	gPlaySound("picklock.caf");
 }
 
 function gSoundBuySeed(){
-	console.log("play buy seed sound");
-	gPlaySound("buyseed.wav");
+	gPlaySound("buyseed.caf");
 }
 
 function gSoundBuyError(){
-	console.log("play buy seed sound ERROR");
+	gPlayRandomSound(Sounds['Error_Purchase']);
 }	
 
 function gSoundRotten(){
-	gPlaySound("slap.wav");
+	gPlaySound("slap.caf");
 }

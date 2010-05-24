@@ -315,7 +315,7 @@
 			var color = board.getColor(board.board[id].crop.stage);
 			jQuery("#"+board.gridName+"_"+id).css('border-color','black').css('background-color', color).html("");
 	    
-			console.log(board.board[id].crop.name+" crop in Cell:"+id+" has grown and is now:"+ board.board[id].crop.age + " years old");
+			//console.log(board.board[id].crop.name+" crop in Cell:"+id+" has grown and is now:"+ board.board[id].crop.age + " years old");
 			
 			
 			/** Capture when a crop dies (5th cycle) GAME_SETTINGS_CYCLE_CAN_HARVEST */
@@ -330,7 +330,6 @@
 				
 			/** flash cell border when ripe */
 			}else if(board.board[id].crop.stage === 5){
-				console.log("calling now");
 				gFlashCell(board.gridName,id);
 			
 			}else{
@@ -342,21 +341,16 @@
 
 	
 	function gSetCellFlashOn(boardName, id){
-			console.log("on:"+id);
 			jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','1px');
-		
-			
 	}
 	
 	function gSetCellFlashOff(boardName, id){
-		console.log("off:"+id);
 		jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','0px');
-		
 	}	
 		
 	/** flash cell border */
 	function gFlashCell(boardName, id){
-		console.log("FlashCell:"+boardName + ":"+id);	
+		
 		/** Sun icon animation */
 		setTimeout(function(){
 				   gSetCellFlashOn(boardName,id);

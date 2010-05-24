@@ -36,6 +36,10 @@
 		<data>
 		kBFmfMdqrPKzFUgZdfzWSc90P6o=
 		</data>
+		<key>buyseed.caf</key>
+		<data>
+		FpsM310epwgA/A28kSMZrW/VA60=
+		</data>
 		<key>buyseed.wav</key>
 		<data>
 		AzYhrfsSPkwtZ3bwg5iVQQgpdEY=
@@ -198,7 +202,7 @@
 		</data>
 		<key>www/jsGame.farm.behavior.js</key>
 		<data>
-		+QilrxrJP+FvC2dLix89I2Ca8qw=
+		lbxRTI9fOUAv3r0XxCa3psKX94s=
 		</data>
 		<key>www/jsGame.farm.js</key>
 		<data>
@@ -206,7 +210,7 @@
 		</data>
 		<key>www/jsGame.sounds.js</key>
 		<data>
-		gYFpR3DEVk5Cn2TKCQ9jqCesdwk=
+		DnVxhKZpEYnjWbn07SDMPro58gI=
 		</data>
 		<key>www/jsGame_board.css</key>
 		<data>
@@ -220,113 +224,85 @@
 		<data>
 		XddTJfwXMGCFJlZ4DYfbypOEauU=
 		</data>
-		<key>www/sounds/alarm_3.wav</key>
+		<key>www/sounds/attention.caf</key>
 		<data>
-		Ynbq3bNp679Jx87llyAtygxVN10=
+		fag82EpVhgM+0RAcmX5Bga81iKE=
 		</data>
-		<key>www/sounds/attention.wav</key>
+		<key>www/sounds/buyseed.caf</key>
 		<data>
-		vjSO4CPH+U11z5vaot8PrDCDUhs=
+		FpsM310epwgA/A28kSMZrW/VA60=
 		</data>
-		<key>www/sounds/boing_1.wav</key>
+		<key>www/sounds/camera.caf</key>
 		<data>
-		kyp+xJqWSBJOpDL5fahP6s1jFGk=
+		lcrqrpElaSVmOUP8hR5sArnbaow=
 		</data>
-		<key>www/sounds/boing_3.wav</key>
+		<key>www/sounds/click.caf</key>
 		<data>
-		P+1UoGAkGTgb2iGqMcQuT9URau4=
+		0onU+gJ3setqTKuCjOTk/1Q5zYE=
 		</data>
-		<key>www/sounds/buyseed.wav</key>
+		<key>www/sounds/doh.caf</key>
 		<data>
-		AzYhrfsSPkwtZ3bwg5iVQQgpdEY=
+		f9jPfohv1OUeadtbgUZdlEzIZMU=
 		</data>
-		<key>www/sounds/camera.wav</key>
+		<key>www/sounds/levelup2.caf</key>
 		<data>
-		GwDUmxSnDwHaKot6UPK98M8h7Is=
+		Uf8EUn2bG8bWDffDA3Zc2h5hTl8=
 		</data>
-		<key>www/sounds/can_crush.wav</key>
+		<key>www/sounds/ouch.caf</key>
 		<data>
-		bYhaEtzKFTLBROoPTa9tiyxAtuI=
+		X/8q+mWhNZGFEeqgTGLS0oEYwX4=
 		</data>
-		<key>www/sounds/click.wav</key>
+		<key>www/sounds/out_of_funds.caf</key>
 		<data>
-		dptYVnSzZpNkN8pUGuoKweeJ7nw=
+		dOOAWJ20YXPRSqN40MQqn2MVDuc=
 		</data>
-		<key>www/sounds/crazy_fool.wav</key>
+		<key>www/sounds/out_of_funds2.caf</key>
 		<data>
-		AkX9YK1X0u1w96I3Io2ybNBNQpU=
+		7WCou+o8zyZ6+cqCkKAvWqxT4Os=
 		</data>
-		<key>www/sounds/doh.wav</key>
+		<key>www/sounds/out_of_funds_1.caf</key>
 		<data>
-		B/fS/lhYxMlIK0hvb3uAyZ+CaPQ=
+		pqaL1Z205vD0IqMYa4CBOpqWUwU=
 		</data>
-		<key>www/sounds/evil_laugh.wav</key>
+		<key>www/sounds/papaa.caf</key>
 		<data>
-		Ex3B5pZvtVt3f20oPq/znqb+OZs=
+		iY6jJjO5vBCGrksqOCn0TDlB1C8=
 		</data>
-		<key>www/sounds/levelup2.wav</key>
+		<key>www/sounds/picklock.caf</key>
 		<data>
-		zvyYX1U6cHbstY1Ajmw2QCglyNY=
+		U05nvImdoJtYJV5B5MeI1IwzUJw=
 		</data>
-		<key>www/sounds/metal_clang.wav</key>
+		<key>www/sounds/punch.caf</key>
 		<data>
-		j4/3J2rgqrYSmuNIKmf9seUWfyc=
+		4K1AcoK34NVeUWZ0kt3TA6t9cA4=
 		</data>
-		<key>www/sounds/nice_effect.wav</key>
+		<key>www/sounds/slap.caf</key>
 		<data>
-		PzgPQXrcwTrufOdDdqWZqgecl1c=
+		YvjBSoVuFWNDk0kXZZegsJ1AnQ0=
 		</data>
-		<key>www/sounds/ouch.wav</key>
+		<key>www/sounds/slash.caf</key>
 		<data>
-		U0nKKVlWYKOflKYVboU67qF42zE=
+		BXgPFT/gKAutn98q0xqXteudk54=
 		</data>
-		<key>www/sounds/papaa.wav</key>
+		<key>www/sounds/smw_coin.caf</key>
 		<data>
-		hw0i0YiHm4Sej1g6lNOLyRgLj+g=
+		yiRBKvzaSFU3gt8opf0S0+ijIc4=
 		</data>
-		<key>www/sounds/picklock.wav</key>
+		<key>www/sounds/somethingwrong.caf</key>
 		<data>
-		53g1W70OOIUSYIvn3QXqCcTh89k=
+		FG8EoZhxVriGf5VQxz7702/KIsg=
 		</data>
-		<key>www/sounds/punch.wav</key>
+		<key>www/sounds/sorry.caf</key>
 		<data>
-		ISlDRxwfSUEXM7nGcAh8qi7Y87I=
+		VNSa4SajRRxmNwVuqmnm6AL9FGw=
 		</data>
-		<key>www/sounds/slap.wav</key>
+		<key>www/sounds/sword3.caf</key>
 		<data>
-		z5ekMgq31GG9oLOxI6mjnNYhYBs=
+		JtlXhwKN+cmDzw8+FOkaED93REo=
 		</data>
-		<key>www/sounds/slash.wav</key>
+		<key>www/sounds/you_got_it_1.caf</key>
 		<data>
-		KKrVvT+x/opwPH+7xTI1XCO0YQk=
-		</data>
-		<key>www/sounds/smw_coin.wav</key>
-		<data>
-		RediHKCyCHVYyANPbwVIyKgo0gk=
-		</data>
-		<key>www/sounds/somethingwrong.wav</key>
-		<data>
-		mDBGDHyQRVvkQe4dd50DOLZi3LM=
-		</data>
-		<key>www/sounds/sorry.wav</key>
-		<data>
-		58XC/htk2Xn09H1qBnw3cd+41oI=
-		</data>
-		<key>www/sounds/squeaky.wav</key>
-		<data>
-		ZmQQ2/81YxDOz/Jnyf7IFV51YNE=
-		</data>
-		<key>www/sounds/startup.wav</key>
-		<data>
-		5O8qyg6XiTd0I3tTKk9moBGGZ+Y=
-		</data>
-		<key>www/sounds/sword3.wav</key>
-		<data>
-		PC4X5taJBwCM7rSo+Cyk0+X8T5w=
-		</data>
-		<key>www/sounds/you_got_it_1.wav</key>
-		<data>
-		lsqONiv83rHqiLfY+ritQqdVqhE=
+		5TcY0xu27zp0aqxMpUNao+GLzRo=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -29,11 +29,10 @@
 		306A5519116BF8E100DDE61E /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 306A5517116BF8E100DDE61E /* Default-Landscape.png */; };
 		306A551A116BF8E100DDE61E /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 306A5518116BF8E100DDE61E /* Default-Portrait.png */; };
 		30E1352710E2C1420031B30D /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* PhoneGap.plist */; };
-		E10E53A311A9782400CD5EE0 /* seeds.png in Resources */ = {isa = PBXBuildFile; fileRef = E10E53A211A9782400CD5EE0 /* seeds.png */; };
-		E10E53A511A97A6C00CD5EE0 /* buyseed.wav in Resources */ = {isa = PBXBuildFile; fileRef = E10E53A411A97A6C00CD5EE0 /* buyseed.wav */; };
 		E19BD1F611A6381E00046288 /* coin_stacks.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BD1F511A6381E00046288 /* coin_stacks.png */; };
 		E19BD1F811A6382800046288 /* award4.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BD1F711A6382800046288 /* award4.png */; };
 		E19BD1FA11A6383B00046288 /* award3.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BD1F911A6383B00046288 /* award3.png */; };
+		E1BEF6B011AAF2C9009D0E31 /* buyseed.caf in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */; };
 		E1E1D1A911A5BCC800BC6E1B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E1D1A811A5BCC800BC6E1B /* icon.png */; };
 		E1E1D1AB11A5BCCE00BC6E1B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E1D1AA11A5BCCE00BC6E1B /* icon-72.png */; };
 /* End PBXBuildFile section */
@@ -82,11 +81,11 @@
 		30E1352610E2C1420031B30D /* PhoneGap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "___PROJECTNAMEASIDENTIFIER___-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		E10E53A211A9782400CD5EE0 /* seeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seeds.png; sourceTree = "<group>"; };
-		E10E53A411A97A6C00CD5EE0 /* buyseed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyseed.wav; sourceTree = "<group>"; };
 		E19BD1F511A6381E00046288 /* coin_stacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_stacks.png; sourceTree = "<group>"; };
 		E19BD1F711A6382800046288 /* award4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = award4.png; sourceTree = "<group>"; };
 		E19BD1F911A6383B00046288 /* award3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = award3.png; sourceTree = "<group>"; };
+		E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = buyseed.caf; sourceTree = "<group>"; };
+		E1BEF6D411AAF4B8009D0E31 /* attention.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = attention.caf; sourceTree = "<group>"; };
 		E1E1D1A811A5BCC800BC6E1B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		E1E1D1AA11A5BCCE00BC6E1B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,8 +135,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				E10E53A411A97A6C00CD5EE0 /* buyseed.wav */,
-				E10E53A211A9782400CD5EE0 /* seeds.png */,
+				E1BEF6D411AAF4B8009D0E31 /* attention.caf */,
+				E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -292,8 +291,7 @@
 				E19BD1F611A6381E00046288 /* coin_stacks.png in Resources */,
 				E19BD1F811A6382800046288 /* award4.png in Resources */,
 				E19BD1FA11A6383B00046288 /* award3.png in Resources */,
-				E10E53A311A9782400CD5EE0 /* seeds.png in Resources */,
-				E10E53A511A97A6C00CD5EE0 /* buyseed.wav in Resources */,
+				E1BEF6B011AAF2C9009D0E31 /* buyseed.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
