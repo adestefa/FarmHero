@@ -1,0 +1,206 @@
+<html>
+    <head>
+		<title>JSGame FarmHero</title>
+		<script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="jquery-1-4-2.js"></script>
+		<script type="text/javascript" src="jquery.sounds.js"></script>
+		<script type="text/javascript" src="jsGame.core.js"></script>
+		<script type="text/javascript" src="jsGame.farm.js"></script>
+		<script type="text/javascript" src="jsGame.farm.behavior.js"></script>
+		<link href="jsGame_board.css" type="text/css" rel="stylesheet" media="screen" />
+		<style>
+		
+	    
+		</style>
+    </head>
+<body>
+      
+	
+	 
+	<div id="header_container">
+	
+	<h1 id="title">FarmHero</h1>
+
+	<!-- the sun in the sky -->
+	<div id="sun"><img src="images/sun.jpg" width="30" height"30" /></div>
+	
+	<br />
+	
+	
+	
+	<!-- Player Seeds 
+	<div id="PLAYER_SEEDS" >
+	    <u style="size:10px">Seeds</u>
+	    <ul style="size:10px;margin:0px">
+		<li>Corn <span id="cornCount"></span></li>
+		<li>Strawberries <span id="berriesCount"></span></li>
+		<li>Wheat <span id="wheatCount"></span></li>
+	    </ul>
+	</div>
+	-->
+	
+	<!-- Crop value description -->
+	<div id="CROP-DESC"  >
+	   <table id="crop-desc-table">
+	    <tr><th>Crop</t><th>Seed</th><th>Sell</th><th>Harvest</th></tr>
+	    <tr><td><img src="images/corn.jpg" width="18" height="18" /></td><td><span class="cornPrice"></span></td><td><span class="cornValue"></span></td><td style="background-color:yellow">&nbsp;</td></tr>
+	    <tr><td><img src="images/strawberry.jpg" width="18" height="18" /></td><td><span class="berriesPrice"></span></td><td><span class="berriesValue"></span></td><td style="background-color:red">&nbsp;</td></tr>
+	    <tr><td><img src="images/icon_money.png" width="18" height="18" /></td><td><span class="wheatPrice"></span></td><td><span class="wheatValue"></span></td><td style="background-color:gold">&nbsp;</td></tr>
+	   </table>
+	</div>
+	
+	<!-- Player Money -->
+	<div id="PLAYER"  >
+	   <table cellpadding="0" cellspacing="0">
+	    <tr><td>Money:<td><b>$<span id="PLAYER_MONEY"></span></b></td></tr>
+	    <tr><td>&nbsp;&nbsp;+Profit:</td><td style="color:green"><b>$<span id="PLAYER_MONEY_PROFIT"></span></b></td></tr>
+	    <tr><td>&nbsp;&nbsp;-Loss:</td><td style="color:red"><b>$<span  id="PLAYER_MONEY_LOSS"></span></b></td></tr>
+	   
+	   </table>	
+	</div> 
+	
+	      
+    </div>
+    
+    
+    
+    
+	<div id="page">
+    
+
+    <!-- user action toogle icons -->
+    <div id="actions">
+		<span class="btn-on" id="btn_action_plant">Plant<img src="images/planting.jpg" width="80" height="50" /></span>
+		<!-- <span id="btn_action_water">Water</span>
+		<span id="btn_action_pesticide">Pesticide</span> -->
+		<span  id="btn_action_harvest" style="padding-left:15px;"><img src="images/harvest.jpg"  width="80" height="50" />Harvest</span>
+    </div>
+	<script>
+    jQuery(document).ready(function(){
+	
+		/** Action tab clicks, here we highlight the active Action */
+		jQuery('span[id*="btn_action"]').click(function(){
+	    
+			// turn all tabs highlight off
+			jQuery('span[id*="btn_action"]').each(function(){
+				jQuery(this).attr('class','').addClass('btn-off');
+			})
+	    
+			// highlight the selected tab
+			jQuery(this).attr('class','').addClass('btn-on');
+			GAME_CURRENT_ACTION  = jQuery(this).text();
+	    
+			// set cursor over garden based on action
+			var selected = jQuery(this).text();
+			if(selected == "Plant"){
+				gSetCursorPlant();  
+			}else{
+				gSetCursorHarvest(); 
+			}
+	    
+			// update display
+			jQuery('#display').html();
+		})
+    });
+    </script>
+    
+    
+    <!-- CORN -->
+    <div id="board-corn"><span class="field-label">Corn field</span>
+	<span style="float:right;padding-right:25px;"><a href="javascript:void(0)" onclick="gBuySeed('Corn');">BUY SEED:<span class="cornPrice"></span></a><span id="cornSeeds"></span></span>
+	<div id="corns"></div>
+	<span id="bin-corn" class="win">&nbsp;</span>
+    </div>
+    <span id="icon-corn"><img src="images/corn.jpg" width="30" height="30" /></span><span id="bushel-corn">0</span>
+    <br />
+	<script>
+		/** CORN  - Pick when  'yellow' */
+		var CORN = new Board("board-corn","corns",2,27,862);
+		CORN.setTitle("Corn");
+		CORN.colors = ['','green','pink','red','brown','yellow','black'];
+		jQuery(document).ready(function(){
+			/** ONCLICK EVENT HANDLER */
+			jQuery('#corns td.cell').click(function(e){
+				var id = jQuery(this).attr('id');
+				e.stopPropagation();
+				e.preventDefault();
+				//jQuery('#display').html(id);
+				clicks(CORN,id);
+			});
+		});	
+    </script>
+	
+    
+    <!-- STRAWBERRIES -->
+    <div id="board-strawberries"><span class="field-label">Strawberry field</span>
+	<span style="float:right;padding-right:25px;"><a href="javascript:void(0)" onclick="gBuySeed('Strawberries');">BUY SEED:<span class="berriesPrice"></span></a><span id="berrySeeds"></span></span>
+	<div id="strawberries"></div>
+	<span id="bin-berries" class="win">&nbsp;</span>
+    </div>
+    <span id="icon-berries"><img src="images/strawberry.jpg" width="30" height="30" /></span><span id="bushel-berries">0</span>
+    <br />
+	<script>  
+		/** STRAWBERRIES  - pick when 'red' */
+		var BERRIES = new Board("board-strawberries","strawberries",2,27,862);
+		BERRIES.setTitle("Strawberries");
+		BERRIES.colors = ['','green','brown','yelow','orange','red','black'];
+		jQuery(document).ready(function(){
+			/** ONCLICK EVENT HANDLER */
+			jQuery('#strawberries td.cell').click(function(e){
+				var id = jQuery(this).attr('id');
+				e.stopPropagation();
+				e.preventDefault();
+				clicks(BERRIES,id);
+			});
+	
+		});
+	</script>
+
+	 
+	   
+    <!-- WHEAT -->
+    <div id="board-wheat"><span class="field-label">Wheat field</span>
+	<span style="float:right;padding-right:25px;"><a href="javascript:void(0)" onclick="gBuySeed('Wheat');">BUY SEED:<span class="wheatPrice"></span></a><span id="wheatSeeds"></span></span>
+	<div id="wheat"></div>
+	<span id="bin-wheat" class="win">&nbsp;</span>
+    </div>
+    <span id="icon-wheat"><img src="images/wheat.jpg" width="30" height="30" /></span><span id="bushel-wheat">0</span>
+    <script>
+	    /** WHEAT - pick when gold*/
+		var WHEAT = new Board("board-wheat","wheat",2,27,862);
+		WHEAT.setTitle("Wheat");
+		WHEAT.colors = ['','green','brown','gray','red','gold','black'];
+		jQuery(document).ready(function(){
+			/** ONCLICK EVENT HANDLER */
+			jQuery('#wheat td.cell').click(function(e){
+				/** get this td's id number */
+				var id = jQuery(this).attr('id');
+				e.stopPropagation();
+				e.preventDefault();
+				clicks(WHEAT,id); 
+			});
+		});
+	</script>
+    
+    <div style="clear:both"></div>
+  
+ 
+   <span id="display"></span>
+   
+   
+   
+   <br />
+   
+   <div id="awards"><img src="images/coin_stacks.png" width="50" height="50"> </div>
+    
+    
+    <div id="controls">
+		<input type="button" id="btn_play_sound" value="Coin" onclick="gSoundCoin();" />
+		<input type="button" id="btn_new_game" value="New game" onclick="gInitializeAndPlay();" />
+		<input type="button" id="btn_pause" value="Pause game" onclick="gStop();gStopSun();" />
+		<input type="button" id="btn_play" value="Resume game" onclick="gStart();gStartSun();" />
+		
+    </div>
+</div>
+</body>
+</html>

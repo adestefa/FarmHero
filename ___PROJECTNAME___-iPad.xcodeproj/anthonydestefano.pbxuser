@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */ = {
+		activeExec = 0;
+		executables = (
+			E1E7474C119CF97E00890E15 /* ___PROJECTNAME___ */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E1E7474C119CF97E00890E15 /* ___PROJECTNAME___ */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */,
+		);
+		codeSenseManager = E1E7477C119CF98800890E15 /* Code sense */;
+		executables = (
+			E1E7474C119CF97E00890E15 /* ___PROJECTNAME___ */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					839,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296412901;
+			PBXWorkspaceStateSaveDate = 296412901;
+		};
+		perUserProjectItems = {
+			E10E53A811A97B4200CD5EE0 = E10E53A811A97B4200CD5EE0 /* PBXTextBookmark */;
+			E10E53A911A97B4200CD5EE0 = E10E53A911A97B4200CD5EE0 /* PBXTextBookmark */;
+			E10E53AA11A97B4200CD5EE0 = E10E53AA11A97B4200CD5EE0 /* PBXTextBookmark */;
+			E10E53AB11A97B4200CD5EE0 = E10E53AB11A97B4200CD5EE0 /* PBXTextBookmark */;
+			E10E53AC11A97B4200CD5EE0 = E10E53AC11A97B4200CD5EE0 /* PBXTextBookmark */;
+			E17C323311A835FA001F5FD5 = E17C323311A835FA001F5FD5 /* PBXTextBookmark */;
+			E19BD23F11A659E200046288 = E19BD23F11A659E200046288 /* PlistBookmark */;
+			E19BD24011A659E200046288 = E19BD24011A659E200046288 /* PBXBookmark */;
+			E19BD24111A659E200046288 = E19BD24111A659E200046288 /* PBXBookmark */;
+			E19BD24211A659E200046288 = E19BD24211A659E200046288 /* PBXBookmark */;
+			E19BD24411A659E200046288 = E19BD24411A659E200046288 /* PBXTextBookmark */;
+			E19BD24711A659E200046288 = E19BD24711A659E200046288 /* PBXTextBookmark */;
+			E1BEF69B11AAE6F1009D0E31 /* PBXTextBookmark */ = E1BEF69B11AAE6F1009D0E31 /* PBXTextBookmark */;
+			E1DA091B11A72C6700C86FDA = E1DA091B11A72C6700C86FDA /* PBXTextBookmark */;
+			E1DA093111A730A500C86FDA = E1DA093111A730A500C86FDA /* PBXTextBookmark */;
+			E1E1D14111A5B5F200BC6E1B = E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */;
+			E1E1D19F11A5BC2D00BC6E1B = E1E1D19F11A5BC2D00BC6E1B /* PBXBookmark */;
+			E1E1D1B011A5BD2D00BC6E1B = E1E1D1B011A5BD2D00BC6E1B /* PBXBookmark */;
+			E1E1D1B111A5BD2D00BC6E1B = E1E1D1B111A5BD2D00BC6E1B /* PBXTextBookmark */;
+			E1E1D1B211A5BD2D00BC6E1B = E1E1D1B211A5BD2D00BC6E1B /* PlistBookmark */;
+			E1E1D1B311A5BD2D00BC6E1B = E1E1D1B311A5BD2D00BC6E1B /* PBXBookmark */;
+			E1E1D1B411A5BD2D00BC6E1B = E1E1D1B411A5BD2D00BC6E1B /* PBXTextBookmark */;
+		};
+		sourceControlManager = E1E7477B119CF98800890E15 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3053AC6E109B7857006FCFE7 /* VERSION */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 5}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 203}";
+		};
+	};
+	8D1107310486CEB800E47090 /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 41}, {750, 837}}";
+		};
+	};
+	E100E92211A798DA00DD2B58 /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/index.html;
+		sourceTree = "<absolute>";
+	};
+	E10E53A811A97B4200CD5EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
+		name = "jsGame_board.css: 137";
+		rLen = 0;
+		rLoc = 2129;
+		rType = 0;
+		vrLen = 741;
+		vrLoc = 1659;
+	};
+	E10E53A911A97B4200CD5EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 113";
+		rLen = 0;
+		rLoc = 3799;
+		rType = 0;
+		vrLen = 2050;
+		vrLoc = 3481;
+	};
+	E10E53AA11A97B4200CD5EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 409";
+		rLen = 15;
+		rLoc = 12105;
+		rType = 0;
+		vrLen = 1567;
+		vrLoc = 11242;
+	};
+	E10E53AB11A97B4200CD5EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 54";
+		rLen = 0;
+		rLoc = 1422;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 1037;
+	};
+	E10E53AC11A97B4200CD5EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 53";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 942;
+	};
+	E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.sounds.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 1274}}";
+			sepNavSelRange = "{1391, 0}";
+			sepNavVisRange = "{669, 1378}";
+		};
+	};
+	E17C323311A835FA001F5FD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 1227;
+		vrLoc = 4860;
+	};
+	E186180711A4FAD1000B12C3 /* jsGame.core.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.core.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.core.js;
+		sourceTree = "<absolute>";
+	};
+	E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.behavior.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
+		sourceTree = "<absolute>";
+	};
+	E19BD23F11A659E200046288 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER___-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E19BD24011A659E200046288 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E19BD1F511A6381E00046288 /* coin_stacks.png */;
+	};
+	E19BD24111A659E200046288 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E19BD1F711A6382800046288 /* award4.png */;
+	};
+	E19BD24211A659E200046288 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E19BD1F911A6383B00046288 /* award3.png */;
+	};
+	E19BD24411A659E200046288 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19BD24511A659E200046288 /* orig.html */;
+		name = "orig.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 0;
+	};
+	E19BD24511A659E200046288 /* orig.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = orig.html;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/orig.html;
+		sourceTree = "<absolute>";
+	};
+	E19BD24711A659E200046288 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19BD24811A659E200046288 /* phonegap.js */;
+		name = "phonegap.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1874;
+		vrLoc = 0;
+	};
+	E19BD24811A659E200046288 /* phonegap.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = phonegap.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/phonegap.js;
+		sourceTree = "<absolute>";
+	};
+	E1BEF69B11AAE6F1009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 53";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 1378;
+		vrLoc = 669;
+	};
+	E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.sounds.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
+		sourceTree = "<absolute>";
+	};
+	E1DA091B11A72C6700C86FDA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E74802119D18FC00890E15 /* jsGame.farm.js */;
+		name = "jsGame.farm.js: 28";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 439;
+	};
+	E1DA093111A730A500C86FDA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E1D14411A5B5F200BC6E1B /* jquery.sounds.js */;
+		name = "jquery.sounds.js: 85";
+		rLen = 0;
+		rLoc = 2553;
+		rType = 0;
+		vrLen = 2410;
+		vrLoc = 4;
+	};
+	E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E1D14211A5B5F200BC6E1B /* jquery-1-4-2.js */;
+		name = "jquery-1-4-2.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 33285;
+		vrLoc = 0;
+	};
+	E1E1D14211A5B5F200BC6E1B /* jquery-1-4-2.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = "jquery-1-4-2.js";
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero/www/jquery-1-4-2.js";
+		sourceTree = "<absolute>";
+	};
+	E1E1D14411A5B5F200BC6E1B /* jquery.sounds.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jquery.sounds.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jquery.sounds.js;
+		sourceTree = "<absolute>";
+	};
+	E1E1D19F11A5BC2D00BC6E1B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 306A5518116BF8E100DDE61E /* Default-Portrait.png */;
+	};
+	E1E1D1B011A5BD2D00BC6E1B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 306A5517116BF8E100DDE61E /* Default-Landscape.png */;
+	};
+	E1E1D1B111A5BD2D00BC6E1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */;
+		name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	E1E1D1B211A5BD2D00BC6E1B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 30E1352610E2C1420031B30D /* PhoneGap.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/anthonydestefano/Desktop/iPadFarmHero/PhoneGap.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E1E1D1B311A5BD2D00BC6E1B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 302CC88610CD8CCE00C49659 /* Default.png */;
+	};
+	E1E1D1B411A5BD2D00BC6E1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3053AC6E109B7857006FCFE7 /* VERSION */;
+		name = "VERSION: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5;
+		vrLoc = 0;
+	};
+	E1E7474C119CF97E00890E15 /* ___PROJECTNAME___ */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "___PROJECTNAME___";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E1E7477B119CF98800890E15 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E1E7477C119CF98800890E15 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E1E747FA119D15FD00890E15 /* jsGame_board.css */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.css;
+		name = jsGame_board.css;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame_board.css;
+		sourceTree = "<absolute>";
+	};
+	E1E74802119D18FC00890E15 /* jsGame.farm.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.js;
+		sourceTree = "<absolute>";
+	};
+}
