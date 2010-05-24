@@ -50,10 +50,6 @@ function gPlaySoundFromString( filename ){
 	gPlaySound(fileToPlay);
 }
 
-function gSoundBuySeed(){
-	gPlaySound("buyseed.wav");
-}	
-
 function gSoundCoin(){
 	gPlaySound("smw_coin.wav");
 }
@@ -90,8 +86,13 @@ function gSoundTooEarly(){
 }
 
 function gSoundBuySeed(){
-	//gPlaySound("click.wav");
+	console.log("play buy seed sound");
+	gPlaySound("buyseed.wav");
 }
+
+function gSoundBuyError(){
+	console.log("play buy seed sound ERROR");
+}	
 
 function gSoundRotten(){
 	gPlaySound("slap.wav");

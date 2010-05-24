@@ -58,6 +58,12 @@
 			E19BD24411A659E200046288 = E19BD24411A659E200046288 /* PBXTextBookmark */;
 			E19BD24711A659E200046288 = E19BD24711A659E200046288 /* PBXTextBookmark */;
 			E1BEF69B11AAE6F1009D0E31 /* PBXTextBookmark */ = E1BEF69B11AAE6F1009D0E31 /* PBXTextBookmark */;
+			E1BEF69F11AAE92C009D0E31 /* PBXTextBookmark */ = E1BEF69F11AAE92C009D0E31 /* PBXTextBookmark */;
+			E1BEF6A011AAE92C009D0E31 /* PBXTextBookmark */ = E1BEF6A011AAE92C009D0E31 /* PBXTextBookmark */;
+			E1BEF6A111AAE92C009D0E31 /* PBXTextBookmark */ = E1BEF6A111AAE92C009D0E31 /* PBXTextBookmark */;
+			E1BEF6A211AAEBB2009D0E31 /* PBXTextBookmark */ = E1BEF6A211AAEBB2009D0E31 /* PBXTextBookmark */;
+			E1BEF6A311AAEBB2009D0E31 /* PBXTextBookmark */ = E1BEF6A311AAEBB2009D0E31 /* PBXTextBookmark */;
+			E1BEF6A411AAEBB2009D0E31 /* PBXTextBookmark */ = E1BEF6A411AAEBB2009D0E31 /* PBXTextBookmark */;
 			E1DA091B11A72C6700C86FDA = E1DA091B11A72C6700C86FDA /* PBXTextBookmark */;
 			E1DA093111A730A500C86FDA = E1DA093111A730A500C86FDA /* PBXTextBookmark */;
 			E1E1D14111A5B5F200BC6E1B = E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */;
@@ -133,7 +139,7 @@
 		fRef = E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 54";
 		rLen = 0;
-		rLoc = 1422;
+		rLoc = 1368;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 1037;
@@ -143,7 +149,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 53";
 		rLen = 0;
-		rLoc = 1391;
+		rLoc = 1368;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 942;
@@ -155,9 +161,9 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 1274}}";
-			sepNavSelRange = "{1391, 0}";
-			sepNavVisRange = "{669, 1378}";
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 1287}}";
+			sepNavSelRange = "{1973, 0}";
+			sepNavVisRange = "{695, 1405}";
 		};
 	};
 	E17C323311A835FA001F5FD5 /* PBXTextBookmark */ = {
@@ -183,6 +189,11 @@
 		name = jsGame.farm.behavior.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 11180}}";
+			sepNavSelRange = "{11730, 16}";
+			sepNavVisRange = "{10914, 1901}";
+		};
 	};
 	E19BD23F11A659E200046288 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -246,10 +257,70 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 53";
 		rLen = 0;
-		rLoc = 1391;
+		rLoc = 1368;
 		rType = 0;
 		vrLen = 1378;
 		vrLoc = 669;
+	};
+	E1BEF69F11AAE92C009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 409";
+		rLen = 15;
+		rLoc = 12105;
+		rType = 0;
+		vrLen = 1901;
+		vrLoc = 10914;
+	};
+	E1BEF6A011AAE92C009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 53";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1505;
+		vrLoc = 491;
+	};
+	E1BEF6A111AAE92C009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 54";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1656;
+		vrLoc = 258;
+	};
+	E1BEF6A211AAEBB2009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 399";
+		rLen = 16;
+		rLoc = 11730;
+		rType = 0;
+		vrLen = 1901;
+		vrLoc = 10914;
+	};
+	E1BEF6A311AAEBB2009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 54";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1583;
+		vrLoc = 419;
+	};
+	E1BEF6A411AAEBB2009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 91";
+		rLen = 0;
+		rLoc = 1973;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 695;
 	};
 	E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */ = {
 		isa = PBXFileReference;
