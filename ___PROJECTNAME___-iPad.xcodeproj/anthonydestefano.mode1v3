@@ -271,8 +271,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>5</integer>
+									<integer>9</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>jsGame.sounds.js</string>
+								<string>jsGame.farm.behavior.js</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>jsGame.sounds.js</string>
+										<string>jsGame.farm.behavior.js</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E1BEF72A11AAF64A009D0E31</string>
+										<string>E1BEF77A11AB0E95009D0E31</string>
 										<key>history</key>
 										<array>
 											<string>E1E1D14111A5B5F200BC6E1B</string>
@@ -342,14 +342,14 @@
 											<string>E19BD24211A659E200046288</string>
 											<string>E19BD24411A659E200046288</string>
 											<string>E19BD24711A659E200046288</string>
-											<string>E1DA091B11A72C6700C86FDA</string>
 											<string>E1DA093111A730A500C86FDA</string>
-											<string>E10E53A811A97B4200CD5EE0</string>
-											<string>E10E53A911A97B4200CD5EE0</string>
-											<string>E1BEF6A611AAED3D009D0E31</string>
-											<string>E1BEF6A911AAED90009D0E31</string>
 											<string>E1BEF72611AAF5DD009D0E31</string>
-											<string>E1BEF72811AAF5DD009D0E31</string>
+											<string>E1BEF76711AB07CD009D0E31</string>
+											<string>E1BEF76A11AB0B95009D0E31</string>
+											<string>E1BEF77311AB0CDB009D0E31</string>
+											<string>E1BEF77611AB0DEB009D0E31</string>
+											<string>E1BEF77711AB0DEB009D0E31</string>
+											<string>E1BEF77811AB0DEB009D0E31</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,6 +547,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>E1BEF75C11AAFF5D009D0E31</string>
+		<string>E1BEF75D11AAFF5D009D0E31</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E1E74771119CF98800890E15</string>
 		<string>/Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAME___-iPad.xcodeproj</string>
@@ -580,16 +583,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {1179, 234}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 285 500 500 0 0 1440 878 </string>
+								<string>99 209 1179 516 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>234pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -604,9 +609,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 239}, {1179, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 285 500 500 0 0 1440 878 </string>
+								<string>99 209 1179 516 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -615,7 +620,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>475pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -638,7 +643,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>347 285 500 500 0 0 1440 878 </string>
+			<string>99 209 1179 516 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>E1E74771119CF98800890E15</string>
 			<key>WindowToolIsVisible</key>
@@ -919,7 +924,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E10E53B711A97B4200CD5EE0</string>
+				<string>E1BEF75511AAF8A9009D0E31</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

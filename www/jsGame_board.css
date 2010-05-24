@@ -132,10 +132,14 @@
 			top:90px;
 			left:6px;
 	    }
-		#corn_seeds{
+		#corn_buy_seeds{
 			position:absolute;
 			top:80px;
 			left:940px;
+		}
+		#cornSeeds{
+			color:black;
+			font-weight:bold;
 		}
 
 		
@@ -157,6 +161,15 @@
 			left:6px;
 	    }
 	    
+		#berry_buy_seeds{
+			position:absolute;
+			top:180px;
+			left:940px;
+		}
+		#berrySeeds{
+			color:black;
+			font-weight:bold;
+		}
 	    
 	    
 	    #board-wheat{
@@ -175,6 +188,17 @@
 			top:290px;
 			left:6px;
 	    }
+		
+		#wheat_buy_seeds{
+			position:absolute;
+			top:280px;
+			left:940px;
+		}
+		#wheatSeeds{
+			color:black;
+			font-weight:bold;
+		}
+
 	    
 	    
 		

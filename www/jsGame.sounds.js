@@ -6,6 +6,16 @@ function gIsMobileSafari(){
 }
 
 
+/**
+ * Return randNumber between 'limit' [and 'lowerLimit']
+ *
+ */
+function randNum( limit){
+           return randomnumber=Math.floor(Math.random()*limit);
+    
+}
+
+
 
 /** game sounds */
 Sounds = new Array();
@@ -41,8 +51,8 @@ function audioStop(){
 
 /** given a valid soundFamily name -  play a random sound */
 function gPlayRandomSound( soundFamily ){
-	var ranNum = randNum(Sounds[soundFamily].length);
-	gPlaySound( Sounds[soundFamily][ranNum] );
+	var r = randNum(Sounds[soundFamily].length);
+	gPlaySound( Sounds[soundFamily][r] );
 }
 
 function gPlaySoundFromString( filename ){
@@ -92,7 +102,7 @@ function gSoundBuySeed(){
 }
 
 function gSoundBuyError(){
-	gPlayRandomSound(Sounds['Error_Purchase']);
+	gPlayRandomSound('Error_Purchase');
 }	
 
 function gSoundRotten(){

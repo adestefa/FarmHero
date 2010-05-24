@@ -76,6 +76,35 @@
 			E1BEF72811AAF5DD009D0E31 /* PBXTextBookmark */ = E1BEF72811AAF5DD009D0E31 /* PBXTextBookmark */;
 			E1BEF72911AAF5DD009D0E31 /* PBXTextBookmark */ = E1BEF72911AAF5DD009D0E31 /* PBXTextBookmark */;
 			E1BEF72A11AAF64A009D0E31 /* PBXTextBookmark */ = E1BEF72A11AAF64A009D0E31 /* PBXTextBookmark */;
+			E1BEF75611AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75611AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75711AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75711AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75811AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75811AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75911AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75911AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75A11AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75A11AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75B11AAFF5D009D0E31 /* PBXTextBookmark */ = E1BEF75B11AAFF5D009D0E31 /* PBXTextBookmark */;
+			E1BEF75E11AB001F009D0E31 /* PBXTextBookmark */ = E1BEF75E11AB001F009D0E31 /* PBXTextBookmark */;
+			E1BEF75F11AB001F009D0E31 /* PBXTextBookmark */ = E1BEF75F11AB001F009D0E31 /* PBXTextBookmark */;
+			E1BEF76011AB0652009D0E31 /* PBXTextBookmark */ = E1BEF76011AB0652009D0E31 /* PBXTextBookmark */;
+			E1BEF76711AB07CD009D0E31 /* PBXTextBookmark */ = E1BEF76711AB07CD009D0E31 /* PBXTextBookmark */;
+			E1BEF76811AB07CD009D0E31 /* PBXTextBookmark */ = E1BEF76811AB07CD009D0E31 /* PBXTextBookmark */;
+			E1BEF76911AB07CD009D0E31 /* PBXTextBookmark */ = E1BEF76911AB07CD009D0E31 /* PBXTextBookmark */;
+			E1BEF76A11AB0B95009D0E31 /* PBXTextBookmark */ = E1BEF76A11AB0B95009D0E31 /* PBXTextBookmark */;
+			E1BEF76B11AB0B95009D0E31 /* PBXTextBookmark */ = E1BEF76B11AB0B95009D0E31 /* PBXTextBookmark */;
+			E1BEF76C11AB0B95009D0E31 /* PBXTextBookmark */ = E1BEF76C11AB0B95009D0E31 /* PBXTextBookmark */;
+			E1BEF76D11AB0B95009D0E31 /* PBXTextBookmark */ = E1BEF76D11AB0B95009D0E31 /* PBXTextBookmark */;
+			E1BEF76E11AB0BE1009D0E31 /* PBXTextBookmark */ = E1BEF76E11AB0BE1009D0E31 /* PBXTextBookmark */;
+			E1BEF76F11AB0C15009D0E31 /* PBXTextBookmark */ = E1BEF76F11AB0C15009D0E31 /* PBXTextBookmark */;
+			E1BEF77011AB0C26009D0E31 /* PBXTextBookmark */ = E1BEF77011AB0C26009D0E31 /* PBXTextBookmark */;
+			E1BEF77111AB0CDB009D0E31 /* PBXTextBookmark */ = E1BEF77111AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1BEF77211AB0CDB009D0E31 /* PBXTextBookmark */ = E1BEF77211AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */ = E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1BEF77411AB0CDB009D0E31 /* PBXTextBookmark */ = E1BEF77411AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1BEF77511AB0CDB009D0E31 /* PBXTextBookmark */ = E1BEF77511AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1BEF77611AB0DEB009D0E31 /* PBXTextBookmark */ = E1BEF77611AB0DEB009D0E31 /* PBXTextBookmark */;
+			E1BEF77711AB0DEB009D0E31 /* PBXTextBookmark */ = E1BEF77711AB0DEB009D0E31 /* PBXTextBookmark */;
+			E1BEF77811AB0DEB009D0E31 /* PBXTextBookmark */ = E1BEF77811AB0DEB009D0E31 /* PBXTextBookmark */;
+			E1BEF77911AB0DEB009D0E31 /* PBXTextBookmark */ = E1BEF77911AB0DEB009D0E31 /* PBXTextBookmark */;
+			E1BEF77A11AB0E95009D0E31 /* PBXTextBookmark */ = E1BEF77A11AB0E95009D0E31 /* PBXTextBookmark */;
 			E1DA091B11A72C6700C86FDA = E1DA091B11A72C6700C86FDA /* PBXTextBookmark */;
 			E1DA093111A730A500C86FDA = E1DA093111A730A500C86FDA /* PBXTextBookmark */;
 			E1E1D14111A5B5F200BC6E1B = E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */;
@@ -115,13 +144,18 @@
 		name = index.html;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/index.html;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 2951}}";
+			sepNavSelRange = "{4671, 0}";
+			sepNavVisRange = "{3592, 3270}";
+		};
 	};
 	E10E53A811A97B4200CD5EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
 		name = "jsGame_board.css: 137";
 		rLen = 0;
-		rLoc = 2129;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 741;
 		vrLoc = 1659;
@@ -131,7 +165,7 @@
 		fRef = E100E92211A798DA00DD2B58 /* index.html */;
 		name = "index.html: 113";
 		rLen = 0;
-		rLoc = 3799;
+		rLoc = 3788;
 		rType = 0;
 		vrLen = 2050;
 		vrLoc = 3481;
@@ -141,7 +175,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 409";
 		rLen = 15;
-		rLoc = 11967;
+		rLoc = 12342;
 		rType = 0;
 		vrLen = 1567;
 		vrLoc = 11242;
@@ -151,7 +185,7 @@
 		fRef = E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 54";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 1037;
@@ -161,7 +195,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 53";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 942;
@@ -173,9 +207,9 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1300}}";
-			sepNavSelRange = "{1862, 0}";
-			sepNavVisRange = "{507, 1656}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1430}}";
+			sepNavSelRange = "{2253, 0}";
+			sepNavVisRange = "{881, 1430}";
 		};
 	};
 	E17C323311A835FA001F5FD5 /* PBXTextBookmark */ = {
@@ -195,9 +229,9 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.core.js;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1069, 3081}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 3081}}";
 			sepNavSelRange = "{662, 0}";
-			sepNavVisRange = "{4148, 1939}";
+			sepNavVisRange = "{1142, 2060}";
 		};
 	};
 	E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */ = {
@@ -207,9 +241,9 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1017, 11011}}";
-			sepNavSelRange = "{10258, 0}";
-			sepNavVisRange = "{10345, 2109}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 11141}}";
+			sepNavSelRange = "{10424, 0}";
+			sepNavVisRange = "{8493, 2337}";
 		};
 	};
 	E19BD23F11A659E200046288 /* PlistBookmark */ = {
@@ -274,7 +308,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 53";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 1378;
 		vrLoc = 669;
@@ -284,7 +318,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 409";
 		rLen = 15;
-		rLoc = 11967;
+		rLoc = 12342;
 		rType = 0;
 		vrLen = 1901;
 		vrLoc = 10914;
@@ -294,7 +328,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 53";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 491;
@@ -304,7 +338,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 54";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 1656;
 		vrLoc = 258;
@@ -314,7 +348,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 399";
 		rLen = 16;
-		rLoc = 11592;
+		rLoc = 11967;
 		rType = 0;
 		vrLen = 1901;
 		vrLoc = 10914;
@@ -324,7 +358,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 54";
 		rLen = 0;
-		rLoc = 1456;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 419;
@@ -334,7 +368,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 91";
 		rLen = 0;
-		rLoc = 2034;
+		rLoc = 2190;
 		rType = 0;
 		vrLen = 1405;
 		vrLoc = 695;
@@ -344,7 +378,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 91";
 		rLen = 0;
-		rLoc = 2034;
+		rLoc = 2190;
 		rType = 0;
 		vrLen = 1707;
 		vrLoc = 0;
@@ -364,7 +398,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 399";
 		rLen = 16;
-		rLoc = 11592;
+		rLoc = 11967;
 		rType = 0;
 		vrLen = 2149;
 		vrLoc = 11885;
@@ -374,7 +408,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 333";
 		rLen = 0;
-		rLoc = 10260;
+		rLoc = 10542;
 		rType = 0;
 		vrLen = 1851;
 		vrLoc = 10207;
@@ -384,7 +418,7 @@
 		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 333";
 		rLen = 0;
-		rLoc = 10260;
+		rLoc = 10542;
 		rType = 0;
 		vrLen = 2109;
 		vrLoc = 10345;
@@ -394,7 +428,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 95";
 		rLen = 0;
-		rLoc = 2107;
+		rLoc = 2255;
 		rType = 0;
 		vrLen = 1428;
 		vrLoc = 695;
@@ -404,7 +438,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 90";
 		rLen = 0;
-		rLoc = 2029;
+		rLoc = 2185;
 		rType = 0;
 		vrLen = 1426;
 		vrLoc = 698;
@@ -414,7 +448,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 81";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2065;
 		rType = 0;
 		vrLen = 882;
 		vrLoc = 1238;
@@ -440,7 +474,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 13";
 		rLen = 0;
-		rLoc = 416;
+		rLoc = 582;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 1184;
@@ -450,7 +484,7 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 97";
 		rLen = 0;
-		rLoc = 2158;
+		rLoc = 2306;
 		rType = 0;
 		vrLen = 1894;
 		vrLoc = 0;
@@ -460,10 +494,300 @@
 		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
 		name = "jsGame.sounds.js: 81";
 		rLen = 0;
-		rLoc = 1862;
+		rLoc = 2018;
 		rType = 0;
 		vrLen = 1718;
 		vrLoc = 419;
+	};
+	E1BEF75611AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
+		name = "jsGame_board.css: 170";
+		rLen = 0;
+		rLoc = 2563;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 2011;
+	};
+	E1BEF75711AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 137";
+		rLen = 0;
+		rLoc = 4671;
+		rType = 0;
+		vrLen = 3281;
+		vrLoc = 3592;
+	};
+	E1BEF75811AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 2045;
+		vrLoc = 4042;
+	};
+	E1BEF75911AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 428";
+		rLen = 33;
+		rLoc = 12948;
+		rType = 0;
+		vrLen = 2190;
+		vrLoc = 12179;
+	};
+	E1BEF75A11AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 81";
+		rLen = 0;
+		rLoc = 2018;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 418;
+	};
+	E1BEF75B11AAFF5D009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 20";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 1968;
+		vrLoc = 0;
+	};
+	E1BEF75E11AB001F009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 20";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 1830;
+		vrLoc = 301;
+	};
+	E1BEF75F11AB001F009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 17";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 1891;
+		vrLoc = 0;
+	};
+	E1BEF76011AB0652009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 105";
+		rLen = 0;
+		rLoc = 2253;
+		rType = 0;
+		vrLen = 1540;
+		vrLoc = 771;
+	};
+	E1BEF76711AB07CD009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 105";
+		rLen = 0;
+		rLoc = 2253;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 881;
+	};
+	E1BEF76811AB07CD009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
+		name = "jsGame_board.css: 170";
+		rLen = 0;
+		rLoc = 2563;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 2011;
+	};
+	E1BEF76911AB07CD009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
+		name = "jsGame_board.css: 141";
+		rLen = 0;
+		rLoc = 2184;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 1990;
+	};
+	E1BEF76A11AB0B95009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E747FA119D15FD00890E15 /* jsGame_board.css */;
+		name = "jsGame_board.css: 141";
+		rLen = 0;
+		rLoc = 2184;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 1990;
+	};
+	E1BEF76B11AB0B95009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 2045;
+		vrLoc = 4042;
+	};
+	E1BEF76C11AB0B95009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E74802119D18FC00890E15 /* jsGame.farm.js */;
+		name = "jsGame.farm.js: 28";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 1648;
+		vrLoc = 0;
+	};
+	E1BEF76D11AB0B95009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 341";
+		rLen = 0;
+		rLoc = 10424;
+		rType = 0;
+		vrLen = 2177;
+		vrLoc = 8971;
+	};
+	E1BEF76E11AB0BE1009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 343";
+		rLen = 0;
+		rLoc = 10433;
+		rType = 0;
+		vrLen = 2181;
+		vrLoc = 8971;
+	};
+	E1BEF76F11AB0C15009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 309";
+		rLen = 0;
+		rLoc = 9355;
+		rType = 0;
+		vrLen = 2180;
+		vrLoc = 8971;
+	};
+	E1BEF77011AB0C26009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 299";
+		rLen = 0;
+		rLoc = 9122;
+		rType = 0;
+		vrLen = 2175;
+		vrLoc = 8971;
+	};
+	E1BEF77111AB0CDB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 137";
+		rLen = 0;
+		rLoc = 4671;
+		rType = 0;
+		vrLen = 3270;
+		vrLoc = 3592;
+	};
+	E1BEF77211AB0CDB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 2378;
+		vrLoc = 2882;
+	};
+	E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1E74802119D18FC00890E15 /* jsGame.farm.js */;
+		name = "jsGame.farm.js: 28";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 2049;
+		vrLoc = 1899;
+	};
+	E1BEF77411AB0CDB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 339";
+		rLen = 37;
+		rLoc = 10387;
+		rType = 0;
+		vrLen = 2226;
+		vrLoc = 12372;
+	};
+	E1BEF77511AB0CDB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 854";
+		rLen = 0;
+		rLoc = 25328;
+		rType = 0;
+		vrLen = 2378;
+		vrLoc = 23503;
+	};
+	E1BEF77611AB0DEB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 137";
+		rLen = 0;
+		rLoc = 4671;
+		rType = 0;
+		vrLen = 3270;
+		vrLoc = 3592;
+	};
+	E1BEF77711AB0DEB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 2060;
+		vrLoc = 1142;
+	};
+	E1BEF77811AB0DEB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 797";
+		rLen = 0;
+		rLoc = 23613;
+		rType = 0;
+		vrLen = 2421;
+		vrLoc = 22247;
+	};
+	E1BEF77911AB0DEB009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 798";
+		rLen = 0;
+		rLoc = 23646;
+		rType = 0;
+		vrLen = 2474;
+		vrLoc = 22206;
+	};
+	E1BEF77A11AB0E95009D0E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 340";
+		rLen = 0;
+		rLoc = 10424;
+		rType = 0;
+		vrLen = 2337;
+		vrLoc = 8493;
 	};
 	E1C745B211A8C5C30061D5C6 /* jsGame.sounds.js */ = {
 		isa = PBXFileReference;
@@ -609,6 +933,11 @@
 		name = jsGame_board.css;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame_board.css;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 3757}}";
+			sepNavSelRange = "{2184, 0}";
+			sepNavVisRange = "{1990, 1040}";
+		};
 	};
 	E1E74802119D18FC00890E15 /* jsGame.farm.js */ = {
 		isa = PBXFileReference;
@@ -616,5 +945,10 @@
 		name = jsGame.farm.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.js;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 2262}}";
+			sepNavSelRange = "{477, 0}";
+			sepNavVisRange = "{1899, 2049}";
+		};
 	};
 }
