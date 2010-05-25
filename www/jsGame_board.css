@@ -134,8 +134,9 @@
 	    }
 		#corn_buy_seeds{
 			position:absolute;
-			top:80px;
+			top:70px;
 			left:940px;
+			text-align:center;
 		}
 		#cornSeeds{
 			color:black;
@@ -163,8 +164,9 @@
 	    
 		#berry_buy_seeds{
 			position:absolute;
-			top:180px;
+			top:170px;
 			left:940px;
+			text-align:center;
 		}
 		#berrySeeds{
 			color:black;
@@ -191,8 +193,9 @@
 		
 		#wheat_buy_seeds{
 			position:absolute;
-			top:280px;
+			top:270px;
 			left:940px;
+			text-align:center;
 		}
 		#wheatSeeds{
 			color:black;

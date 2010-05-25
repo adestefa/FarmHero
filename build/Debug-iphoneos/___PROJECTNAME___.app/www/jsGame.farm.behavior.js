@@ -301,6 +301,15 @@
 	
 	
     }
+
+	function gClearCell(boardName, id){
+		console.log(boardName+":"+id);
+		
+		setTimeout(function(){
+				   jQuery("#"+boardName+"_"+id).css('background-color', "white").css('color','black').html("");
+				   }, 5000);		   
+		
+	}	
     
     /** Grow crop on given board at given cell id */
     function gGrowCrop(board,id){
@@ -326,6 +335,10 @@
 				.css('background-color', "white")
 				.css('color','red')
 				.html("-$"+board.board[id].crop.value);
+				
+				gClearCell(board.gridName,id);
+								
+				
 				return 1;
 				
 			/** flash cell border when ripe */
@@ -339,11 +352,11 @@
 		return 0;
     }
 
-	
+	/** turn the cell's border on */
 	function gSetCellFlashOn(boardName, id){
 			jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','1px');
 	}
-	
+	/** turn the cell's border off */
 	function gSetCellFlashOff(boardName, id){
 		jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','0px');
 	}	
@@ -351,7 +364,8 @@
 	/** flash cell border */
 	function gFlashCell(boardName, id){
 		
-		/** Sun icon animation */
+		/** here we flash the cell's border a few times */
+		
 		setTimeout(function(){
 				   gSetCellFlashOn(boardName,id);
 				   },0);
@@ -775,6 +789,9 @@
 		    	
 				/** display harvest under garden */		
 				gAddHarvestToBin("corn",GAME_VALUE_HARVEST_CORN);
+				
+				 gClearCell(board.gridName,str[1]);
+			
 			
 				jsGame.log("Harvest crop:"+id);
 		    }else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
@@ -799,6 +816,9 @@
 				gUpdatePlayerMoney();
 				gAddHarvestToBin("berries",GAME_VALUE_HARVEST_BERRIES);
 			
+						   gClearCell(board.gridName,str[1]);
+				
+				
 				jsGame.log("Harvest crop:"+id);
 		    }else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
 				gOutput("Your Srawberries are Rotten!!");
@@ -821,6 +841,9 @@
 				gUpdatePlayerMoney();
 				gAddHarvestToBin("wheat",GAME_VALUE_HARVEST_WHEAT);
 		    
+				
+				gClearCell(board.gridName,str[1]);
+										
 				jsGame.log("Harvest crop:"+id);
 			}else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
 				gOutput("Your Wheat is Rotten!!");

@@ -307,7 +307,7 @@
 		
 		setTimeout(function(){
 				   jQuery("#"+boardName+"_"+id).css('background-color', "white").css('color','black').html("");
-				   }, 2000);		   
+				   }, 5000);		   
 		
 	}	
     
