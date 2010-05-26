@@ -16,7 +16,7 @@
     var jsGame = new jsGame();
     jsGame.debug = 0;
    
-    
+    /** Main game loop boolean game is running when true */
     var GAME_RUN_LOOP_ON = 1;
    
     /** total number of growth cycles */
@@ -91,20 +91,38 @@
 		gStart();
 	}
 
+var cloudCycles = 1;
+function moveCloud(){
+	if(jQuery('#cloud').position().left == 300){
+		console.log("move right cycles:"+cloudCycles);
+		if(cloudCycles < 3){
+			jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+			cloudCycles++;
+		}else{
+			jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+			cloudCycles = 1;
+		}
+	}else{  
+		console.log("move left");
+		jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
+	}  	
+}
    
     var GAME_INTERVAL; 
-	var GAME_RIPE_CELL_INTERVALS =  [];
-    
+	    
 	function gStart(){
 		 /** Main game loop - growing time begins in the garden */
 		gCycle();
 		jsGame.recordGrowthCycle();
 		
 		if(jQuery('#sun').position().left == 300){
+			console.log("move right");
 		    jQuery('#sun').animate({left: "700px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
-		}else{    
+		}else{  
+			console.log("move left");
 		    jQuery('#sun').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
 		}  
+		moveCloud();
 	
 		if(GAME_RUN_LOOP_ON){
 			
@@ -136,11 +154,10 @@
     function gUpdatePlayerMoney(ani){
 		var currentMoney = parseInt(jQuery('#PLAYER_MONEY').html().substr(0));
 		//console.log("CURRENT MONEY:"+currentMoney+ "REAL MONEY:"+GAME_PLAYER_MONEY);
-		if(currentMoney > GAME_PLAYER_MONEY){
-	   // console.log("YOU LOST MONEY!");
-		}else{
-	    //console.log("YOU GOT MONEY!");
-		}
+		//if(currentMoney > GAME_PLAYER_MONEY){
+	  	//	}else{
+	    
+		//}
 		if(typeof ani !== "undefined"){
 			jQuery('#PLAYER_MONEY').css({fontSize: "16px", color: "red"})
 			.animate({fontSize: "2em"}, 600 )
@@ -276,7 +293,7 @@
 			GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY - GAME_SETTINGS_NO_GROWTH_PENALTY);
 			if(GAME_PLAYER_MONEY < 0){
 				GAME_PLAYER_MONEY = 0;
-				gUpdatePlayerMoney("animate");
+				gUpdatePlayerMoney();
 				gOutput("GAME OVER");
 			//	console.log("Game over calling stop");
 				gStop();
@@ -339,7 +356,7 @@
 				return 1;
 				
 			/** flash cell border when ripe */
-			}else if(board.board[id].crop.stage === 5){
+			}else if(board.board[id].crop.stage === GAME_SETTINGS_CYCLE_CAN_HARVEST){
 				gFlashCell(board.gridName,id);
 			
 			}else{
@@ -582,7 +599,7 @@
 		jsGame.log("Animate Bushel:"+type);
 		jQuery('#bin-'+type+' img').fadeOut('fast').fadeIn('fast').fadeOut('slow').fadeIn('slow');
 	
-	/*	setTimeout(function(){
+		setTimeout(function(){
 				   jQuery('#bin-'+type+' img:visible').eq(4).fadeOut('fast');
 	    
 				   }, 100);
@@ -599,11 +616,11 @@
 	 
 				   }, 500);
 		setTimeout(function(){
-	    **/
+	    
 				   jQuery('#bin-'+type+' img:visible').fadeOut('fast');
 				   jQuery('#bin-'+type).html("<img src='images/c.gif' width='1' height='20' />");
 
-				//   }, 700);
+				   }, 700);
 		gOutput("You created a "+type+" Bushel worth $50!");
 	
 	

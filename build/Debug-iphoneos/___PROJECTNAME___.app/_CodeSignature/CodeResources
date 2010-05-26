@@ -44,6 +44,10 @@
 		<data>
 		AzYhrfsSPkwtZ3bwg5iVQQgpdEY=
 		</data>
+		<key>cloud.png</key>
+		<data>
+		lL6GkMX4AyiMuROAOIM13OINlN4=
+		</data>
 		<key>coin_stacks.png</key>
 		<data>
 		2wolLZddgU6AgF/pYSIgx5FZEPQ=
@@ -108,6 +112,10 @@
 		<data>
 		/gpS9j3wN6l+tNKcA3uHS8Sj52Y=
 		</data>
+		<key>www/images/cloud.png</key>
+		<data>
+		Uz9FvSy4rID0y0ANKzmeSHy0ZGg=
+		</data>
 		<key>www/images/coin.jpg</key>
 		<data>
 		2bDL3ee33hdBY5eswcV6jtJyCC8=
@@ -152,6 +160,10 @@
 		<data>
 		L03nAqHqQ+gEub3LA5Buw+BXkrI=
 		</data>
+		<key>www/images/raincloud.gif</key>
+		<data>
+		vEEsnY0LJ75QRvv06h+zz/QP6xc=
+		</data>
 		<key>www/images/seeds.png</key>
 		<data>
 		rjvAOF0GuHb1azwvxpmJk0JVLtk=
@@ -186,7 +198,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		RI3mHuNNN6Diu9E//V/341x7nYE=
+		2BNX0R4E2N+QLqI3QtVyYE3Htmg=
 		</data>
 		<key>www/jquery-1-4-2.js</key>
 		<data>
@@ -202,11 +214,15 @@
 		</data>
 		<key>www/jsGame.farm.behavior.js</key>
 		<data>
-		Xd097w/0kcDS+Ogz9ni+V8mn+4s=
+		N1cAjHJ4aDMSkVjrFegHQPxntVI=
 		</data>
 		<key>www/jsGame.farm.js</key>
 		<data>
 		SGXY0pnREUMr1NO4z1Yt3SIBQ4E=
+		</data>
+		<key>www/jsGame.levels.js</key>
+		<data>
+		yTjHDaYVDdJhWbD0wPUdYTuRnBE=
 		</data>
 		<key>www/jsGame.sounds.js</key>
 		<data>
@@ -214,7 +230,7 @@
 		</data>
 		<key>www/jsGame_board.css</key>
 		<data>
-		5AQ6pGSOEYRBqX7s5jVZDttC1Nw=
+		4iuyO3QJWdVa4igJTYwNIA7SkdI=
 		</data>
 		<key>www/jsGame_board2.css</key>
 		<data>

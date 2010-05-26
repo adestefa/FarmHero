@@ -24,7 +24,7 @@
 	<h1 id="title">FarmHero</h1>
 
 	<!-- the sun in the sky -->
-	<div id="sun"><img src="images/sun.jpg" width="30" height"30" /></div>
+		<div id="cloud"><img src="images/cloud.png" /></div><div id="sun"><img src="images/sun.jpg" width="30" height"30" /></div>
 	
 	<br />
 	
@@ -207,6 +207,18 @@
     
     
 	    <div id="controls">
+		
+		<script>
+		
+			/** create level selector */
+			var ops = '<select id="level" onchange="gLEVELS.loadLevel(this.selectedIndex)">'
+			for(var i=0;i<gLEVELS.DATA.length;i++){
+				ops += "<option>"+gLEVELS.DATA[i].NAME+"</option>";
+			}
+			ops+="</select>";
+			jQuery('#controls').prepend(ops);
+			</script>
+		
 		
 		<input type="button" id="btn_play_sound" value="Plant" onclick="gSoundPlant();" />
 		<input type="button" id="btn_play_sound" value="Harvest" onclick="gSoundHarvest();" />
