@@ -16,7 +16,7 @@
     var jsGame = new jsGame();
     jsGame.debug = 0;
    
-    
+    /** Main game loop boolean game is running when true */
     var GAME_RUN_LOOP_ON = 1;
    
     /** total number of growth cycles */
@@ -136,11 +136,10 @@
     function gUpdatePlayerMoney(ani){
 		var currentMoney = parseInt(jQuery('#PLAYER_MONEY').html().substr(0));
 		//console.log("CURRENT MONEY:"+currentMoney+ "REAL MONEY:"+GAME_PLAYER_MONEY);
-		if(currentMoney > GAME_PLAYER_MONEY){
-	   // console.log("YOU LOST MONEY!");
-		}else{
-	    //console.log("YOU GOT MONEY!");
-		}
+		//if(currentMoney > GAME_PLAYER_MONEY){
+	  	//	}else{
+	    
+		//}
 		if(typeof ani !== "undefined"){
 			jQuery('#PLAYER_MONEY').css({fontSize: "16px", color: "red"})
 			.animate({fontSize: "2em"}, 600 )

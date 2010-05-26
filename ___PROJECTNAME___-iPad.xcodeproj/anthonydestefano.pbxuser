@@ -98,6 +98,11 @@
 		name = index.html;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/index.html;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 2938}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 2917}";
+		};
 	};
 	E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */ = {
 		isa = PBXFileReference;
@@ -112,6 +117,11 @@
 		name = jsGame.core.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.core.js;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 3081}}";
+			sepNavSelRange = "{662, 0}";
+			sepNavVisRange = "{4051, 2036}";
+		};
 	};
 	E191939111AC0E5C00C59B93 /* jsGame_board2.css */ = {
 		isa = PBXFileReference;
@@ -162,7 +172,7 @@
 		fRef = E100E92211A798DA00DD2B58 /* index.html */;
 		name = "index.html: 117";
 		rLen = 0;
-		rLoc = 4056;
+		rLoc = 4122;
 		rType = 0;
 		vrLen = 2124;
 		vrLoc = 3547;
@@ -189,7 +199,7 @@
 		fRef = E192BE3611ACCC27003E3091 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 290";
 		rLen = 8;
-		rLoc = 8899;
+		rLoc = 9036;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 1669;
@@ -199,7 +209,7 @@
 		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
 		name = "jsGame.farm.behavior.js: 607";
 		rLen = 0;
-		rLoc = 18227;
+		rLoc = 18366;
 		rType = 0;
 		vrLen = 1524;
 		vrLoc = 17286;
@@ -210,6 +220,11 @@
 		name = jsGame.farm.behavior.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 11297}}";
+			sepNavSelRange = "{344, 888}";
+			sepNavVisRange = "{43, 2477}";
+		};
 	};
 	E19BD23F11A659E200046288 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -321,6 +336,11 @@
 		name = "jquery-1-4-2.js";
 		path = "/Users/anthonydestefano/Desktop/iPadFarmHero/www/jquery-1-4-2.js";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {17869, 2041}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 34324}";
+		};
 	};
 	E1E1D14411A5B5F200BC6E1B /* jquery.sounds.js */ = {
 		isa = PBXFileReference;
