@@ -124,17 +124,17 @@
 	    }	
 	    #bushel-corn{
 			position:absolute;
-			top:90px;
+			top:190px;
 			left:45px;
 	    }
 	    #icon-corn{
 			position:absolute;
-			top:90px;
+			top:190px;
 			left:6px;
 	    }
 		#corn_buy_seeds{
 			position:absolute;
-			top:70px;
+			top:170px;
 			left:940px;
 			text-align:center;
 		}
@@ -153,18 +153,18 @@
 	    
 	    #bushel-berries{
 			position:absolute;
-			top:190px;
+			top:290px;
 			left:45px;
 	    }
 		#icon-berries{
 			position:absolute;
-			top:190px;
+			top:290px;
 			left:6px;
 	    }
 	    
 		#berry_buy_seeds{
 			position:absolute;
-			top:170px;
+			top:270px;
 			left:940px;
 			text-align:center;
 		}
@@ -181,19 +181,19 @@
 		
 		#bushel-wheat{
 			position:absolute;
-			top:290px;
+			top:90px;
 			left:45px;
 	    }
 	    
 	    #icon-wheat{
 			position:absolute;
-			top:290px;
+			top:90px;
 			left:6px;
 	    }
 		
 		#wheat_buy_seeds{
 			position:absolute;
-			top:270px;
+			top:70px;
 			left:940px;
 			text-align:center;
 		}

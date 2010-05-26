@@ -107,6 +107,34 @@
     });
     </script>
     
+	
+	
+	<!-- WHEAT -->
+    <div id="container_wheat">
+	<div id="board-wheat"><span class="field-label">Wheat field</span>
+	<span style="float:right;padding-right:25px;"><span id="wheatSeeds"></span></span>
+	<div id="wheat"></div><span id="wheat_buy_seeds"><a href="javascript:void(0)" onclick="gBuySeed('Wheat');"><img  src="images/seeds.png" width="45" height="45" border="0" /></a><br /><span class="wheatPrice"></span></span>
+	<span id="bin-wheat" class="win">&nbsp;</span>
+    </div>
+    <span id="icon-wheat"><img src="images/wheat.jpg" width="30" height="30" /></span><span id="bushel-wheat">0</span>
+   </div>
+	 <script>
+	    /** WHEAT - pick when gold*/
+		var WHEAT = new Board("board-wheat","wheat",2,27,862);
+		WHEAT.setTitle("Wheat");
+		WHEAT.colors = ['','green','brown','gray','red','gold','black'];
+		jQuery(document).ready(function(){
+			/** ONCLICK EVENT HANDLER */
+			jQuery('#wheat td.cell').click(function(e){
+				/** get this td's id number */
+				var id = jQuery(this).attr('id');
+				e.stopPropagation();
+				e.preventDefault();
+				clicks(WHEAT,id); 
+			});
+		});
+	</script>
+	
     
     <!-- CORN -->
     <div id="board-corn"><span class="field-label">Corn field</span>
@@ -163,31 +191,7 @@
 
 	 
 	   
-    <!-- WHEAT -->
-    <div id="container_wheat">
-	<div id="board-wheat"><span class="field-label">Wheat field</span>
-	<span style="float:right;padding-right:25px;"><span id="wheatSeeds"></span></span>
-	<div id="wheat"></div><span id="wheat_buy_seeds"><a href="javascript:void(0)" onclick="gBuySeed('Wheat');"><img  src="images/seeds.png" width="45" height="45" border="0" /></a><br /><span class="wheatPrice"></span></span>
-	<span id="bin-wheat" class="win">&nbsp;</span>
-    </div>
-    <span id="icon-wheat"><img src="images/wheat.jpg" width="30" height="30" /></span><span id="bushel-wheat">0</span>
-   </div>
-	 <script>
-	    /** WHEAT - pick when gold*/
-		var WHEAT = new Board("board-wheat","wheat",2,27,862);
-		WHEAT.setTitle("Wheat");
-		WHEAT.colors = ['','green','brown','gray','red','gold','black'];
-		jQuery(document).ready(function(){
-			/** ONCLICK EVENT HANDLER */
-			jQuery('#wheat td.cell').click(function(e){
-				/** get this td's id number */
-				var id = jQuery(this).attr('id');
-				e.stopPropagation();
-				e.preventDefault();
-				clicks(WHEAT,id); 
-			});
-		});
-	</script>
+  
     
     <div style="clear:both"></div>
   

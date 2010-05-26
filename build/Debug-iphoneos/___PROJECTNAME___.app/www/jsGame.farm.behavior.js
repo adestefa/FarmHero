@@ -17,7 +17,7 @@
     jsGame.debug = 0;
    
     
-
+    var GAME_RUN_LOOP_ON = 1;
    
     /** total number of growth cycles */
     var GAME_DATA_NUM_GROWTH_CYCLES_PAST = 0;
@@ -87,6 +87,7 @@
 		gShowPlayerSeeds();
 		gShowSeedPrices();
 		gSetCursorPlant(); 
+		GAME_RUN_LOOP_ON = 1;
 		gStart();
 	}
 
@@ -96,17 +97,28 @@
     
 	function gStart(){
 		 /** Main game loop - growing time begins in the garden */
-		GAME_INTERVAL = setInterval(function(){
-		 gCycle();
-	     jsGame.recordGrowthCycle();
-	    }, GAME_SETTINGS_GROW_CYCLE_SPEED);
-		gStartSun();
+		gCycle();
+		jsGame.recordGrowthCycle();
+		
+		if(jQuery('#sun').position().left == 300){
+		    jQuery('#sun').animate({left: "700px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
+		}else{    
+		    jQuery('#sun').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
+		}  
+	
+		if(GAME_RUN_LOOP_ON){
+			
+			GAME_INTERVAL = setTimeout("gStart()", GAME_SETTINGS_GROW_CYCLE_SPEED);
+		}else{
+			clearTimeout(GAME_INTERVAL);
+		}	
     }
-    
+    	
 	function gStop(){
-		clearInterval(GAME_INTERVAL);
-		gStopSun();
-    }
+		//console.log("clear interval");
+		//clearTimeout(GAME_INTERVAL);
+		GAME_RUN_LOOP_ON = 0;
+	}
     
 	function gPause(){
 		jsGame.log("Game paused...");
@@ -118,24 +130,7 @@
 		gStart();
 	}
     
-    var GAME_SUN_INTERVAL;
-   
-	function gStartSun(){  
-		/** Sun icon animation */
-		GAME_SUN_INTERVAL = setInterval(function(){
-		if(jQuery('#sun').position().left == 300){
-		    jQuery('#sun').animate({left: "700px"}, 2900 );
-		}else{    
-		    jQuery('#sun').animate({left: "300px"}, 2900 );
-		}  
-	    },3000);
-	  }
     
-	function gStopSun(){
-	    jsGame.log("Stop SUN");
-	    clearInterval(GAME_SUN_INTERVAL);
-	  }
-
    
     /**  display player's money totals */
     function gUpdatePlayerMoney(ani){
@@ -217,9 +212,10 @@
 	
 	
 	GAME_DATA_NUM_GROWTH_CYCLES_PAST++;
-	jsGame.log("Growth cycle "+ GAME_DATA_NUM_GROWTH_CYCLES_PAST +" begins..");
+	//	console.log("RUN LOOP:"+GAME_RUN_LOOP_ON)=
+	//console.log("Growth cycle "+ GAME_DATA_NUM_GROWTH_CYCLES_PAST +" begins..");
 	
-	
+		//console.log("GAME_SETTINGS_GROW_CYCLE_SPEED:"+GAME_SETTINGS_GROW_CYCLE_SPEED);
 	
 	var foundCrop = 0;
 	
@@ -282,6 +278,7 @@
 				GAME_PLAYER_MONEY = 0;
 				gUpdatePlayerMoney("animate");
 				gOutput("GAME OVER");
+			//	console.log("Game over calling stop");
 				gStop();
 			}else{
 				gUpdatePlayerMoney("animate");
@@ -303,7 +300,7 @@
     }
 
 	function gClearCell(boardName, id){
-		console.log(boardName+":"+id);
+		//console.log(boardName+":"+id);
 		
 		setTimeout(function(){
 				   jQuery("#"+boardName+"_"+id).css('background-color', "white").css('color','black').html("");
@@ -581,11 +578,11 @@
     }
     
     function animateBushel(type){
-		gStop(); // pause growing cycle
+		//gStop(); // pause growing cycle
 		jsGame.log("Animate Bushel:"+type);
 		jQuery('#bin-'+type+' img').fadeOut('fast').fadeIn('fast').fadeOut('slow').fadeIn('slow');
 	
-		setTimeout(function(){
+	/*	setTimeout(function(){
 				   jQuery('#bin-'+type+' img:visible').eq(4).fadeOut('fast');
 	    
 				   }, 100);
@@ -602,11 +599,11 @@
 	 
 				   }, 500);
 		setTimeout(function(){
-	    
+	    **/
 				   jQuery('#bin-'+type+' img:visible').fadeOut('fast');
 				   jQuery('#bin-'+type).html("<img src='images/c.gif' width='1' height='20' />");
 
-				   }, 700);
+				//   }, 700);
 		gOutput("You created a "+type+" Bushel worth $50!");
 	
 	
@@ -621,8 +618,7 @@
 				   gUpdatePlayerMoney("animate");
 				   var bushels = jQuery('#bushel-'+type).html();
 				   jQuery('#bushel-'+type).html( parseInt(bushels) + 1);
-				   gStart(); // resume growing
-				}, 900);
+					}, 900);
 	
     }
     
@@ -826,6 +822,7 @@
 		    }else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
 				gOutput("Not ripe yet!");
 				gSoundTooEarly();
+				
 		    }
 		}
 		
@@ -850,7 +847,7 @@
 				gSoundTooLate();
 		    }else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
 				gOutput("Not ripe yet!");
-				gSoundToEarly();
+				gSoundTooEarly();
 		    }
 		}
 	

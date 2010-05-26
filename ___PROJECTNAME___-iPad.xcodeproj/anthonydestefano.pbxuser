@@ -24,7 +24,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1072,
+					892,
 					20,
 					48,
 					43,
@@ -41,12 +41,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296488988;
-			PBXWorkspaceStateSaveDate = 296488988;
+			PBXPerProjectTemplateStateSaveDate = 296585317;
+			PBXWorkspaceStateSaveDate = 296585317;
 		};
 		perUserProjectItems = {
-			E17CB17611AB8098000BDF88 = E17CB17611AB8098000BDF88 /* PBXTextBookmark */;
-			E191939011AC0E5C00C59B93 = E191939011AC0E5C00C59B93 /* PBXTextBookmark */;
+			E192BE2111ACBD13003E3091 = E192BE2111ACBD13003E3091 /* PBXTextBookmark */;
+			E192BE2211ACBD13003E3091 = E192BE2211ACBD13003E3091 /* PBXTextBookmark */;
+			E192BE2311ACBD13003E3091 = E192BE2311ACBD13003E3091 /* PBXTextBookmark */;
+			E192BE2511ACBD13003E3091 = E192BE2511ACBD13003E3091 /* PBXTextBookmark */;
+			E192BE2611ACBD13003E3091 = E192BE2611ACBD13003E3091 /* PBXTextBookmark */;
+			E192BE4111ACF6BC003E3091 = E192BE4111ACF6BC003E3091 /* PBXTextBookmark */;
+			E192BE4D11ACFDD5003E3091 = E192BE4D11ACFDD5003E3091 /* PBXTextBookmark */;
 			E19BD23F11A659E200046288 = E19BD23F11A659E200046288 /* PlistBookmark */;
 			E19BD24011A659E200046288 = E19BD24011A659E200046288 /* PBXBookmark */;
 			E19BD24111A659E200046288 = E19BD24111A659E200046288 /* PBXBookmark */;
@@ -54,11 +59,7 @@
 			E19BD24411A659E200046288 = E19BD24411A659E200046288 /* PBXTextBookmark */;
 			E19BD24711A659E200046288 = E19BD24711A659E200046288 /* PBXTextBookmark */;
 			E1BEF72611AAF5DD009D0E31 = E1BEF72611AAF5DD009D0E31 /* PBXTextBookmark */;
-			E1BEF76711AB07CD009D0E31 = E1BEF76711AB07CD009D0E31 /* PBXTextBookmark */;
 			E1BEF77311AB0CDB009D0E31 = E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */;
-			E1BEF77711AB0DEB009D0E31 = E1BEF77711AB0DEB009D0E31 /* PBXTextBookmark */;
-			E1BEF77C11AB0F6D009D0E31 = E1BEF77C11AB0F6D009D0E31 /* PBXTextBookmark */;
-			E1BEF78911AB1131009D0E31 = E1BEF78911AB1131009D0E31 /* PBXTextBookmark */;
 			E1DA093111A730A500C86FDA = E1DA093111A730A500C86FDA /* PBXTextBookmark */;
 			E1E1D14111A5B5F200BC6E1B = E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */;
 			E1E1D19F11A5BC2D00BC6E1B = E1E1D19F11A5BC2D00BC6E1B /* PBXBookmark */;
@@ -105,23 +106,6 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
 		sourceTree = "<absolute>";
 	};
-	E17CB17611AB8098000BDF88 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E17CB17711AB8098000BDF88 /* jsGame_board.css */;
-		name = "jsGame_board.css: 196";
-		rLen = 0;
-		rLoc = 2921;
-		rType = 0;
-		vrLen = 745;
-		vrLoc = 2102;
-	};
-	E17CB17711AB8098000BDF88 /* jsGame_board.css */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.css;
-		name = jsGame_board.css;
-		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame_board.css;
-		sourceTree = "<absolute>";
-	};
 	E186180711A4FAD1000B12C3 /* jsGame.core.js */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.javascript;
@@ -129,24 +113,98 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.core.js;
 		sourceTree = "<absolute>";
 	};
-	E191939011AC0E5C00C59B93 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191939111AC0E5C00C59B93 /* jsGame_board.css */;
-		name = "jsGame_board.css: 196";
-		rLen = 0;
-		rLoc = 2921;
-		rType = 0;
-		vrLen = 703;
-		vrLoc = 2552;
+	E191939111AC0E5C00C59B93 /* jsGame_board2.css */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.css;
+		name = jsGame_board2.css;
+		path = www/jsGame_board2.css;
+		sourceTree = SOURCE_ROOT;
 	};
-	E191939111AC0E5C00C59B93 /* jsGame_board.css */ = {
+	E192BE2111ACBD13003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
+		name = "jsGame.core.js: 31";
+		rLen = 0;
+		rLoc = 662;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 4816;
+	};
+	E192BE2211ACBD13003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191939111AC0E5C00C59B93 /* jsGame_board2.css */;
+		name = "jsGame_board2.css: 119";
+		rLen = 0;
+		rLoc = 1867;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 1616;
+	};
+	E192BE2311ACBD13003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E192BE2411ACBD13003E3091 /* jsGame_board.css */;
+		name = "jsGame_board.css: 184";
+		rLen = 0;
+		rLoc = 2762;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 2458;
+	};
+	E192BE2411ACBD13003E3091 /* jsGame_board.css */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.css;
 		name = jsGame_board.css;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame_board.css;
 		sourceTree = "<absolute>";
 	};
-	E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */ = {
+	E192BE2511ACBD13003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 117";
+		rLen = 0;
+		rLoc = 4056;
+		rType = 0;
+		vrLen = 2124;
+		vrLoc = 3547;
+	};
+	E192BE2611ACBD13003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
+		name = "jsGame.sounds.js: 96";
+		rLen = 17;
+		rLoc = 2084;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 1443;
+	};
+	E192BE3611ACCC27003E3091 /* jsGame.farm.behavior.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.behavior.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
+		sourceTree = "<absolute>";
+	};
+	E192BE4111ACF6BC003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E192BE3611ACCC27003E3091 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 290";
+		rLen = 8;
+		rLoc = 8899;
+		rType = 0;
+		vrLen = 1377;
+		vrLoc = 1669;
+	};
+	E192BE4D11ACFDD5003E3091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 607";
+		rLen = 0;
+		rLoc = 18227;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 17286;
+	};
+	E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.javascript;
 		name = jsGame.farm.behavior.js;
@@ -227,16 +285,6 @@
 		path = "/Users/anthonydestefano/Desktop/audio compression/build_audio.sh";
 		sourceTree = "<absolute>";
 	};
-	E1BEF76711AB07CD009D0E31 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
-		name = "jsGame.sounds.js: 105";
-		rLen = 0;
-		rLoc = 2253;
-		rType = 0;
-		vrLen = 1430;
-		vrLoc = 881;
-	};
 	E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E1E74802119D18FC00890E15 /* jsGame.farm.js */;
@@ -246,36 +294,6 @@
 		rType = 0;
 		vrLen = 2049;
 		vrLoc = 1899;
-	};
-	E1BEF77711AB0DEB009D0E31 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
-		name = "jsGame.core.js: 31";
-		rLen = 0;
-		rLoc = 662;
-		rType = 0;
-		vrLen = 2060;
-		vrLoc = 1142;
-	};
-	E1BEF77C11AB0F6D009D0E31 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E19A9CC611A89ADF00465F97 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 310";
-		rLen = 0;
-		rLoc = 9345;
-		rType = 0;
-		vrLen = 2337;
-		vrLoc = 8493;
-	};
-	E1BEF78911AB1131009D0E31 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 170";
-		rLen = 0;
-		rLoc = 6153;
-		rType = 0;
-		vrLen = 3338;
-		vrLoc = 3547;
 	};
 	E1DA093111A730A500C86FDA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
