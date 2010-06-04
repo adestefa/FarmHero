@@ -4,7 +4,8 @@
 		<script type="text/javascript" src="phonegap.js"></script>
 		<script type="text/javascript" src="jquery-1-4-2.js"></script>
 		<script type="text/javascript" src="jquery.sounds.js"></script>
-		<script type="text/javascript" src="jsGame.sounds.js"></script>
+		<script type="text/javascript" src="jsGame.sound.manager.js"></script>
+		<script type="text/javascript" src="jsGame.sound.profiles.js"></script>
 		<script type="text/javascript" src="jsGame.levels.js"></script>
 		<script type="text/javascript" src="jsGame.core.js"></script>
 		<script type="text/javascript" src="jsGame.farm.js"></script>
@@ -65,9 +66,32 @@
     </div>
     
     
+	<div class="dialog" id="dialog_welcome">
+	
+	<h2>FarmHero is a game that is easy to learn but hard to master</h2>
+		
+		<ol>
+		<li>You can purchase Seeds at any time</li>
+		<li>Plant seeds by selecting "Plant" action and clicking inside the crop area</li>
+		<li>Watch the crops change color as the Sun passes in the sky</li>
+		<li>Harvest crops by clicking them when they match the ripe color</li>
+	</ol>
+  	<h3>A Farm can only last 2 growth cycles (1 round trip of the Sun)<br /> without anything growing before the farm starts losing money.</h3>
+	
+	<br /
+	
+	<h2><a href="javascript:;" onclick="gNewGame()">Start Game</a></h2>
+	
+	</div>
     
+	<div class="dialog" id="dialog_win">
+		
+		<h2><a href="javascript:;" onclick="gNewGame()">New game</a></h2>
+	</div>
+	
+	
     
-	<div id="page">
+	<div id="page" style="display:none">
     
 
     <!-- user action toogle icons -->
@@ -217,6 +241,19 @@
 			}
 			ops+="</select>";
 			jQuery('#controls').prepend(ops);
+			
+			
+			
+			/** create sound profile selector */
+			var ops = '<select id="sounds" onchange="gSoundProfiles.loadProfile(this.selectedIndex)">'
+			for(var i=0;i<gSoundProfiles.DATA.length;i++){
+				ops += "<option>"+gSoundProfiles.DATA[i].NAME+"</option>";
+			}
+			ops+="</select>";
+			jQuery('#controls').prepend(ops);
+			
+			
+			
 			</script>
 		
 		

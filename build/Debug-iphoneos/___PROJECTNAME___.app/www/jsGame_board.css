@@ -1,5 +1,43 @@
 
+	    #page {
+			position:absolute;
+			margin: 0 auto;
+			width: 1020px;
+			top:150px;
+			left:20px;
+			text-align: left;
+			border-style:solid;
+			border-color:black;
+			border-width:0px;
+			display:none;
+	    }
 
+			
+	
+		
+	    .dialog {
+			position:absolute;
+			margin: 10px auto;
+			width: 800px;
+			height: 400px;
+			top:150px;
+			left:140px;
+			text-align: left;
+			border-style:solid;
+			border-color:black;
+			border-width:2px;
+			text-align:center;	
+			
+	    }
+		
+
+		ol{
+			padding-top:5px;
+			padding-bottom:5px;
+			padding-right:0px;
+			padding-left:190px;
+			text-align:left;
+		}
 
 		#board{
             float:center;
@@ -71,18 +109,8 @@
 			margin-left: 1.6in;
 			font-size: 4em; 
 		}
+		
 
-	    #page {
-			position:absolute;
-			margin: 0 auto;
-			width: 1020px;
-			top:150px;
-			left:20px;
-			text-align: left;
-			border-style:solid;
-			border-color:black;
-			border-width:0px;
-	    }
 	    #actions{
 			text-align:center;
 		

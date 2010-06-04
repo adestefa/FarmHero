@@ -124,15 +124,27 @@
 	    }	
 	    #bushel-corn{
 			position:absolute;
-			top:90px;
+			top:190px;
 			left:45px;
 	    }
 	    #icon-corn{
 			position:absolute;
-			top:90px;
+			top:190px;
 			left:6px;
 	    }
-	    
+		#corn_buy_seeds{
+			position:absolute;
+			top:170px;
+			left:940px;
+			text-align:center;
+		}
+		#cornSeeds{
+			color:black;
+			font-weight:bold;
+		}
+
+		
+		
 	    
 	    #board-strawberries{
 			float:left;
@@ -141,15 +153,25 @@
 	    
 	    #bushel-berries{
 			position:absolute;
-			top:190px;
+			top:290px;
 			left:45px;
 	    }
 		#icon-berries{
 			position:absolute;
-			top:190px;
+			top:290px;
 			left:6px;
 	    }
 	    
+		#berry_buy_seeds{
+			position:absolute;
+			top:270px;
+			left:940px;
+			text-align:center;
+		}
+		#berrySeeds{
+			color:black;
+			font-weight:bold;
+		}
 	    
 	    
 	    #board-wheat{
@@ -159,15 +181,27 @@
 		
 		#bushel-wheat{
 			position:absolute;
-			top:290px;
+			top:90px;
 			left:45px;
 	    }
 	    
 	    #icon-wheat{
 			position:absolute;
-			top:290px;
+			top:90px;
 			left:6px;
 	    }
+		
+		#wheat_buy_seeds{
+			position:absolute;
+			top:70px;
+			left:940px;
+			text-align:center;
+		}
+		#wheatSeeds{
+			color:black;
+			font-weight:bold;
+		}
+
 	    
 	    
 		
@@ -177,6 +211,15 @@
 			left:500px;
 	    }
 		
+		
+				
+		#cloud{
+			position:absolute;
+			top:5px;
+			left:500px;
+			z-index:-999;
+	    }
+
 	    #title{
 			position:absolute;
 			top:50px;
@@ -260,3 +303,5 @@
 			top:520px;
 			left:250px;
 		}
+		
+	

@@ -25,11 +25,11 @@
     
     /** write text to web kit console log */
     jsGame.prototype.log = function(str){
-	if(this.debug){
-	    if(window.console && window.console.log){
-		console.log(str);
-	    }
-	}
+		if(this.debug){
+			if(window.console && window.console.log){
+              console.log(str);
+			}
+		}
     }
    
     jsGame.prototype.init = function(){

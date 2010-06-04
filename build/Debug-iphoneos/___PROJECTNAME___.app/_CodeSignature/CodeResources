@@ -24,6 +24,10 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>ReadMe.txt</key>
+		<data>
+		iDyypWsoFh340Il8D38dZtGAYCE=
+		</data>
 		<key>VERSION</key>
 		<data>
 		MUlpOW81WLM3G+CJHLh8pwmwOUw=
@@ -39,10 +43,6 @@
 		<key>buyseed.caf</key>
 		<data>
 		FpsM310epwgA/A28kSMZrW/VA60=
-		</data>
-		<key>buyseed.wav</key>
-		<data>
-		AzYhrfsSPkwtZ3bwg5iVQQgpdEY=
 		</data>
 		<key>cloud.png</key>
 		<data>
@@ -63,10 +63,6 @@
 		<key>icon.png</key>
 		<data>
 		v/cNr2pv/20kCHoTb1BfKL1Iv+4=
-		</data>
-		<key>seeds.png</key>
-		<data>
-		EbwH486TOUwq7TxYF/qqQbkWIUI=
 		</data>
 		<key>www/images/600px-Sun.lxset.svg.png</key>
 		<data>
@@ -127,6 +123,14 @@
 		<key>www/images/corn.jpg</key>
 		<data>
 		yXRgRhA0IcDJNnQ3zmslQ+aR5LI=
+		</data>
+		<key>www/images/dirt.png</key>
+		<data>
+		0z0s9nbtH7t5OFl1tjtv/5Ly6nY=
+		</data>
+		<key>www/images/dirt2.png</key>
+		<data>
+		KpbVpixoLPILZDmpWKhQqd+oJ4E=
 		</data>
 		<key>www/images/errIcon.png</key>
 		<data>
@@ -198,7 +202,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		2BNX0R4E2N+QLqI3QtVyYE3Htmg=
+		oxyBK8zXdA0GJtUpB6k8nnqjLH0=
 		</data>
 		<key>www/jquery-1-4-2.js</key>
 		<data>
@@ -214,7 +218,7 @@
 		</data>
 		<key>www/jsGame.farm.behavior.js</key>
 		<data>
-		N1cAjHJ4aDMSkVjrFegHQPxntVI=
+		qOFn+YUTMrgnPZiKi491CJ8exvE=
 		</data>
 		<key>www/jsGame.farm.js</key>
 		<data>
@@ -222,15 +226,19 @@
 		</data>
 		<key>www/jsGame.levels.js</key>
 		<data>
-		yTjHDaYVDdJhWbD0wPUdYTuRnBE=
+		DlE4zZq6m8YuRYdSk7LHe11nDAw=
 		</data>
-		<key>www/jsGame.sounds.js</key>
+		<key>www/jsGame.sound.manager.js</key>
 		<data>
-		cNg7RVs12Aukf9Q1TaBYNwpXNTo=
+		OWVzB9qxXVxWQDhUff8iANKVBIA=
+		</data>
+		<key>www/jsGame.sound.profiles.js</key>
+		<data>
+		6WDt2pH1OpHtdJtli8SfzW/a0oU=
 		</data>
 		<key>www/jsGame_board.css</key>
 		<data>
-		4iuyO3QJWdVa4igJTYwNIA7SkdI=
+		pxCN/DgQZjvJKDA30NyqmDkYrd0=
 		</data>
 		<key>www/jsGame_board2.css</key>
 		<data>
@@ -248,6 +256,10 @@
 		<data>
 		fag82EpVhgM+0RAcmX5Bga81iKE=
 		</data>
+		<key>www/sounds/bundle.wav</key>
+		<data>
+		qiGuOU/RDvQv8QYtvilodaMFBDU=
+		</data>
 		<key>www/sounds/buyseed.caf</key>
 		<data>
 		FpsM310epwgA/A28kSMZrW/VA60=
@@ -260,13 +272,25 @@
 		<data>
 		0onU+gJ3setqTKuCjOTk/1Q5zYE=
 		</data>
+		<key>www/sounds/coin2.wav</key>
+		<data>
+		0V7NXU/UbubtamfpSWAr4RAJ+Y4=
+		</data>
 		<key>www/sounds/doh.caf</key>
 		<data>
 		f9jPfohv1OUeadtbgUZdlEzIZMU=
 		</data>
+		<key>www/sounds/error.wav</key>
+		<data>
+		kv99/33fodghsknCwIZe4PIRNP4=
+		</data>
 		<key>www/sounds/levelup2.caf</key>
 		<data>
 		Uf8EUn2bG8bWDffDA3Zc2h5hTl8=
+		</data>
+		<key>www/sounds/nogrowth.wav</key>
+		<data>
+		/qrxO3KHrQRtYtFV9bFCAJsnELg=
 		</data>
 		<key>www/sounds/ouch.caf</key>
 		<data>
@@ -295,6 +319,10 @@
 		<key>www/sounds/punch.caf</key>
 		<data>
 		4K1AcoK34NVeUWZ0kt3TA6t9cA4=
+		</data>
+		<key>www/sounds/rotten.wav</key>
+		<data>
+		oooW654O9WArJ75WlMWnu4mQOaw=
 		</data>
 		<key>www/sounds/slap.caf</key>
 		<data>

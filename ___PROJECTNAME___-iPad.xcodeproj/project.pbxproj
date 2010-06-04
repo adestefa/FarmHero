@@ -34,6 +34,7 @@
 		E19BD1F811A6382800046288 /* award4.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BD1F711A6382800046288 /* award4.png */; };
 		E19BD1FA11A6383B00046288 /* award3.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BD1F911A6383B00046288 /* award3.png */; };
 		E1BEF6B011AAF2C9009D0E31 /* buyseed.caf in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */; };
+		E1DE52EA11B4580B00B246A3 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1DE52E911B4580B00B246A3 /* ReadMe.txt */; };
 		E1E1D1A911A5BCC800BC6E1B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E1D1A811A5BCC800BC6E1B /* icon.png */; };
 		E1E1D1AB11A5BCCE00BC6E1B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E1D1AA11A5BCCE00BC6E1B /* icon-72.png */; };
 /* End PBXBuildFile section */
@@ -88,6 +89,7 @@
 		E19BD1F911A6383B00046288 /* award3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = award3.png; sourceTree = "<group>"; };
 		E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = buyseed.caf; sourceTree = "<group>"; };
 		E1BEF6D411AAF4B8009D0E31 /* attention.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = attention.caf; sourceTree = "<group>"; };
+		E1DE52E911B4580B00B246A3 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		E1E1D1A811A5BCC800BC6E1B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		E1E1D1AA11A5BCCE00BC6E1B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				E1BEF6D411AAF4B8009D0E31 /* attention.caf */,
 				E1BEF6AF11AAF2C9009D0E31 /* buyseed.caf */,
 				301BF56E109A69640062928A /* www */,
+				E1DE52E911B4580B00B246A3 /* ReadMe.txt */,
 				301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
@@ -296,6 +299,7 @@
 				E19BD1FA11A6383B00046288 /* award3.png in Resources */,
 				E1BEF6B011AAF2C9009D0E31 /* buyseed.caf in Resources */,
 				E19176DF11ADAE1D00B70162 /* cloud.png in Resources */,
+				E1DE52EA11B4580B00B246A3 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

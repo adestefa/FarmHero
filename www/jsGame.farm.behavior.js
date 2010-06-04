@@ -22,24 +22,6 @@
     /** total number of growth cycles */
     var GAME_DATA_NUM_GROWTH_CYCLES_PAST = 0;
     
-    /** Growth cycle speed */
-    var GAME_SETTINGS_GROW_CYCLE_SPEED = 3000;
-    
-    /** which stage crops must be equal to in order to be harvested */
-    var GAME_SETTINGS_CYCLE_CAN_HARVEST = 5;
-    
-    /** How many growth cycles can a farmer go without anything in ground before penalty */
-    var GAME_SETTINGS_NUM_OF_NO_GROWTH_CYCLE_TRIGGER = 2;
-    
-    /** amount deducted from farmer's purse should he not have anything planted */
-    var GAME_SETTINGS_NO_GROWTH_PENALTY = 5;
-    
-    /** Number of items farmer picks before he makes a bushel */
-    var GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL = 5;
-    
-    /** Bonus amount awarded for a bushel */
-    var GAME_SETTINGS_BUSHEL_BONUS = 10;
-    
     /** cost and value of each crop */
     var GAME_VALUE_SEED_CORN = 5;
     /** value sold after harvest */
@@ -47,7 +29,7 @@
     /** keep track of how many items harvested without a miss */
     var GAME_DATA_CORN_ITEMS_IN_A_ROW = 0;
     
-    
+ 
     var GAME_VALUE_SEED_BERRIES = 15;
     var GAME_VALUE_HARVEST_BERRIES = 30;
     var GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW = 0;
@@ -77,8 +59,20 @@
 
     /** Initialize Game */
     jQuery(document).ready(function(){
-		gInitializeAndPlay();
+		setupDisplay();
 	});
+
+	/** start a new game */
+	function gNewGame(){
+		gInitializeAndPlay();
+	}
+
+	function setupDisplay(){
+		
+		jQuery('.dialog').hide();
+		jQuery('#dialog_welcome').show();
+		
+	}
 
 	/** setup and play game */
 	function gInitializeAndPlay(){
@@ -89,42 +83,48 @@
 		gSetCursorPlant(); 
 		GAME_RUN_LOOP_ON = 1;
 		gStart();
+		jQuery('.dialog').fadeOut();
+		jQuery('#page').fadeIn();
+
 	}
 
-var cloudCycles = 1;
-function moveCloud(){
-	if(jQuery('#cloud').position().left == 300){
-		console.log("move right cycles:"+cloudCycles);
-		if(cloudCycles < 3){
-			jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
-			cloudCycles++;
-		}else{
-			jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
-			cloudCycles = 1;
-		}
-	}else{  
-		console.log("move left");
-		jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
-	}  	
-}
+	var cloudCycles = 1;
+	function moveCloud(){
+		if(jQuery('#cloud').position().left == 300){
+			//console.log("move right cycles:"+cloudCycles);
+			if(cloudCycles < 3){
+				jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+				cloudCycles++;
+			}else{
+				jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+				cloudCycles = 1;
+			}
+		}else{  
+			//console.log("move left");
+			jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
+		}  	
+	}
    
     var GAME_INTERVAL; 
 	    
 	function gStart(){
-		 /** Main game loop - growing time begins in the garden */
+		
+		if(GAME_RUN_LOOP_ON){
+		
+		/** Main game loop - growing time begins in the garden */
 		gCycle();
 		jsGame.recordGrowthCycle();
 		
 		if(jQuery('#sun').position().left == 300){
-			console.log("move right");
+			//console.log("move right");
 		    jQuery('#sun').animate({left: "700px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
 		}else{  
-			console.log("move left");
+			//console.log("move left");
 		    jQuery('#sun').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
 		}  
 		moveCloud();
 	
-		if(GAME_RUN_LOOP_ON){
+		
 			
 			GAME_INTERVAL = setTimeout("gStart()", GAME_SETTINGS_GROW_CYCLE_SPEED);
 		}else{
@@ -299,7 +299,7 @@ function moveCloud(){
 				gStop();
 			}else{
 				gUpdatePlayerMoney("animate");
-				gSoundTooLate();
+				gSoundNoGrowthPenalty();
 				gOutput("Plant something or your farm will continue to lose money!");
 			}
 	    }else if (jsGame.noGrowthCycles == 1){

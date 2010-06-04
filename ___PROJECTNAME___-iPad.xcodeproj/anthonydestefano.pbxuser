@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 991}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 1066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{124, 2006}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */ = {
 		activeExec = 0;
 		executables = (
@@ -38,7 +52,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					910,
+					641,
 					20,
 					48,
 					43,
@@ -55,48 +69,27 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296585317;
-			PBXWorkspaceStateSaveDate = 296585317;
+			PBXPerProjectTemplateStateSaveDate = 297322046;
+			PBXWorkspaceStateSaveDate = 297322046;
 		};
 		perUserProjectItems = {
-			E191771111ADB18800B70162 /* PBXTextBookmark */ = E191771111ADB18800B70162 /* PBXTextBookmark */;
-			E191771211ADB18800B70162 /* PBXTextBookmark */ = E191771211ADB18800B70162 /* PBXTextBookmark */;
-			E191771311ADB18800B70162 /* PBXTextBookmark */ = E191771311ADB18800B70162 /* PBXTextBookmark */;
-			E191771411ADB18800B70162 /* PBXTextBookmark */ = E191771411ADB18800B70162 /* PBXTextBookmark */;
-			E191771611ADB18800B70162 /* PBXBookmark */ = E191771611ADB18800B70162 /* PBXBookmark */;
-			E191771711ADB18800B70162 /* PBXBookmark */ = E191771711ADB18800B70162 /* PBXBookmark */;
-			E191771911ADB18800B70162 /* PBXTextBookmark */ = E191771911ADB18800B70162 /* PBXTextBookmark */;
-			E191771A11ADB18800B70162 /* PBXTextBookmark */ = E191771A11ADB18800B70162 /* PBXTextBookmark */;
-			E191771B11ADB18800B70162 /* PBXTextBookmark */ = E191771B11ADB18800B70162 /* PBXTextBookmark */;
-			E191771C11ADB18800B70162 /* PBXTextBookmark */ = E191771C11ADB18800B70162 /* PBXTextBookmark */;
-			E191772911ADB27C00B70162 /* PBXTextBookmark */ = E191772911ADB27C00B70162 /* PBXTextBookmark */;
-			E191772A11ADB2DC00B70162 /* PBXTextBookmark */ = E191772A11ADB2DC00B70162 /* PBXTextBookmark */;
-			E191772B11ADB2EE00B70162 /* PBXTextBookmark */ = E191772B11ADB2EE00B70162 /* PBXTextBookmark */;
-			E191772C11ADB49700B70162 /* PBXTextBookmark */ = E191772C11ADB49700B70162 /* PBXTextBookmark */;
-			E191772D11ADB49700B70162 /* PBXTextBookmark */ = E191772D11ADB49700B70162 /* PBXTextBookmark */;
-			E191772E11ADB49700B70162 /* PBXTextBookmark */ = E191772E11ADB49700B70162 /* PBXTextBookmark */;
-			E191772F11ADB58B00B70162 /* PBXTextBookmark */ = E191772F11ADB58B00B70162 /* PBXTextBookmark */;
-			E191773011ADB58B00B70162 /* PBXTextBookmark */ = E191773011ADB58B00B70162 /* PBXTextBookmark */;
-			E191773111ADB5EF00B70162 /* PBXTextBookmark */ = E191773111ADB5EF00B70162 /* PBXTextBookmark */;
-			E191773211ADB60500B70162 /* PBXTextBookmark */ = E191773211ADB60500B70162 /* PBXTextBookmark */;
-			E191773311ADB66900B70162 /* PBXTextBookmark */ = E191773311ADB66900B70162 /* PBXTextBookmark */;
-			E191773411ADB6CA00B70162 /* PBXTextBookmark */ = E191773411ADB6CA00B70162 /* PBXTextBookmark */;
-			E191773511ADB6CA00B70162 /* PBXTextBookmark */ = E191773511ADB6CA00B70162 /* PBXTextBookmark */;
-			E191773611ADB6CA00B70162 /* PBXTextBookmark */ = E191773611ADB6CA00B70162 /* PBXTextBookmark */;
-			E191773711ADB6CA00B70162 /* PBXTextBookmark */ = E191773711ADB6CA00B70162 /* PBXTextBookmark */;
-			E191773811ADB9A500B70162 /* PBXTextBookmark */ = E191773811ADB9A500B70162 /* PBXTextBookmark */;
-			E191773911ADB9A500B70162 /* PBXTextBookmark */ = E191773911ADB9A500B70162 /* PBXTextBookmark */;
-			E191773A11ADB9A500B70162 /* PBXTextBookmark */ = E191773A11ADB9A500B70162 /* PBXTextBookmark */;
-			E191773B11ADB9BB00B70162 /* PBXTextBookmark */ = E191773B11ADB9BB00B70162 /* PBXTextBookmark */;
-			E191773C11ADB9E600B70162 /* PBXTextBookmark */ = E191773C11ADB9E600B70162 /* PBXTextBookmark */;
-			E191773D11ADBA1300B70162 /* PBXTextBookmark */ = E191773D11ADBA1300B70162 /* PBXTextBookmark */;
-			E192BE2111ACBD13003E3091 = E192BE2111ACBD13003E3091 /* PBXTextBookmark */;
+			E191771111ADB18800B70162 = E191771111ADB18800B70162 /* PBXTextBookmark */;
+			E191771211ADB18800B70162 = E191771211ADB18800B70162 /* PBXTextBookmark */;
+			E191771311ADB18800B70162 = E191771311ADB18800B70162 /* PBXTextBookmark */;
+			E191771611ADB18800B70162 = E191771611ADB18800B70162 /* PBXBookmark */;
+			E191771711ADB18800B70162 = E191771711ADB18800B70162 /* PBXBookmark */;
+			E191771A11ADB18800B70162 = E191771A11ADB18800B70162 /* PBXTextBookmark */;
+			E191773811ADB9A500B70162 = E191773811ADB9A500B70162 /* PBXTextBookmark */;
+			E191773911ADB9A500B70162 = E191773911ADB9A500B70162 /* PBXTextBookmark */;
+			E191A24111AE446500253F68 = E191A24111AE446500253F68 /* PBXTextBookmark */;
+			E191A24211AE446500253F68 = E191A24211AE446500253F68 /* PBXTextBookmark */;
+			E191A24711AE446500253F68 = E191A24711AE446500253F68 /* PBXTextBookmark */;
+			E191A24811AE446500253F68 = E191A24811AE446500253F68 /* PBXTextBookmark */;
+			E191A24911AE446500253F68 = E191A24911AE446500253F68 /* PBXTextBookmark */;
+			E191A24A11AE446500253F68 = E191A24A11AE446500253F68 /* PBXTextBookmark */;
+			E191A25111AE446500253F68 = E191A25111AE446500253F68 /* PBXTextBookmark */;
+			E192668611B8C643008B0594 /* PBXTextBookmark */ = E192668611B8C643008B0594 /* PBXTextBookmark */;
 			E192BE2211ACBD13003E3091 = E192BE2211ACBD13003E3091 /* PBXTextBookmark */;
-			E192BE2311ACBD13003E3091 = E192BE2311ACBD13003E3091 /* PBXTextBookmark */;
-			E192BE2511ACBD13003E3091 = E192BE2511ACBD13003E3091 /* PBXTextBookmark */;
-			E192BE2611ACBD13003E3091 = E192BE2611ACBD13003E3091 /* PBXTextBookmark */;
-			E192BE4111ACF6BC003E3091 = E192BE4111ACF6BC003E3091 /* PBXTextBookmark */;
-			E192BE4D11ACFDD5003E3091 = E192BE4D11ACFDD5003E3091 /* PBXTextBookmark */;
 			E19BD23F11A659E200046288 = E19BD23F11A659E200046288 /* PlistBookmark */;
 			E19BD24011A659E200046288 = E19BD24011A659E200046288 /* PBXBookmark */;
 			E19BD24111A659E200046288 = E19BD24111A659E200046288 /* PBXBookmark */;
@@ -105,17 +98,35 @@
 			E19BD24711A659E200046288 = E19BD24711A659E200046288 /* PBXTextBookmark */;
 			E1BEF72611AAF5DD009D0E31 = E1BEF72611AAF5DD009D0E31 /* PBXTextBookmark */;
 			E1BEF77311AB0CDB009D0E31 = E1BEF77311AB0CDB009D0E31 /* PBXTextBookmark */;
+			E1C0554111B8C5E800454174 = E1C0554111B8C5E800454174 /* PBXTextBookmark */;
+			E1C0554211B8C5E800454174 = E1C0554211B8C5E800454174 /* PBXTextBookmark */;
+			E1C0554311B8C5E800454174 = E1C0554311B8C5E800454174 /* PBXTextBookmark */;
+			E1C0554511B8C5E800454174 = E1C0554511B8C5E800454174 /* PBXTextBookmark */;
+			E1C055A111B8C63000454174 = E1C055A111B8C63000454174 /* PBXTextBookmark */;
+			E1D9115211B7742800D4D6B1 = E1D9115211B7742800D4D6B1 /* PBXTextBookmark */;
+			E1D911E111B7815E00D4D6B1 = E1D911E111B7815E00D4D6B1 /* PBXTextBookmark */;
+			E1D911E211B7815E00D4D6B1 = E1D911E211B7815E00D4D6B1 /* PBXTextBookmark */;
 			E1DA093111A730A500C86FDA = E1DA093111A730A500C86FDA /* PBXTextBookmark */;
-			E1E1D14111A5B5F200BC6E1B = E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */;
+			E1DE52ED11B45C1C00B246A3 = E1DE52ED11B45C1C00B246A3 /* PBXTextBookmark */;
+			E1DE52EE11B45C1C00B246A3 = E1DE52EE11B45C1C00B246A3 /* PBXTextBookmark */;
+			E1DE52EF11B45C1C00B246A3 = E1DE52EF11B45C1C00B246A3 /* PBXTextBookmark */;
+			E1DE52F011B45C1C00B246A3 = E1DE52F011B45C1C00B246A3 /* PBXTextBookmark */;
+			E1DE52F211B45C1C00B246A3 = E1DE52F211B45C1C00B246A3 /* PBXTextBookmark */;
 			E1E1D19F11A5BC2D00BC6E1B = E1E1D19F11A5BC2D00BC6E1B /* PBXBookmark */;
 			E1E1D1B011A5BD2D00BC6E1B = E1E1D1B011A5BD2D00BC6E1B /* PBXBookmark */;
-			E1E1D1B111A5BD2D00BC6E1B = E1E1D1B111A5BD2D00BC6E1B /* PBXTextBookmark */;
 			E1E1D1B211A5BD2D00BC6E1B = E1E1D1B211A5BD2D00BC6E1B /* PlistBookmark */;
 			E1E1D1B311A5BD2D00BC6E1B = E1E1D1B311A5BD2D00BC6E1B /* PBXBookmark */;
 			E1E1D1B411A5BD2D00BC6E1B = E1E1D1B411A5BD2D00BC6E1B /* PBXTextBookmark */;
 		};
 		sourceControlManager = E1E7477B119CF98800890E15 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 991}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 431}";
 		};
 	};
 	3053AC6E109B7857006FCFE7 /* VERSION */ = {
@@ -127,7 +138,7 @@
 	};
 	32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1039, 1014}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 991}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 203}";
 		};
@@ -143,11 +154,6 @@
 		name = index.html;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/index.html;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1699, 3107}}";
-			sepNavSelRange = "{7326, 0}";
-			sepNavVisRange = "{6946, 1732}";
-		};
 	};
 	E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */ = {
 		isa = PBXFileReference;
@@ -155,11 +161,6 @@
 		name = jsGame.sounds.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sounds.js;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 1430}}";
-			sepNavSelRange = "{1711, 0}";
-			sepNavVisRange = "{833, 1478}";
-		};
 	};
 	E186180711A4FAD1000B12C3 /* jsGame.core.js */ = {
 		isa = PBXFileReference;
@@ -167,11 +168,6 @@
 		name = jsGame.core.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.core.js;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 3081}}";
-			sepNavSelRange = "{662, 0}";
-			sepNavVisRange = "{4051, 2036}";
-		};
 	};
 	E191771111ADB18800B70162 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -203,27 +199,12 @@
 		vrLen = 1478;
 		vrLoc = 833;
 	};
-	E191771411ADB18800B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 11";
-		rLen = 0;
-		rLoc = 103;
-		rType = 0;
-		vrLen = 1213;
-		vrLoc = 0;
-	};
 	E191771511ADB18800B70162 /* jsGame.levels.js */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.javascript;
 		name = jsGame.levels.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.levels.js;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 1040}}";
-			sepNavSelRange = "{734, 31}";
-			sepNavVisRange = "{402, 1137}";
-		};
 	};
 	E191771611ADB18800B70162 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -235,19 +216,10 @@
 	};
 	E191771811ADB18800B70162 /* cloud.png */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = image.png;
 		name = cloud.png;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/images/cloud.png;
 		sourceTree = "<absolute>";
-	};
-	E191771911ADB18800B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 27";
-		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 2970;
-		vrLoc = 0;
 	};
 	E191771A11ADB18800B70162 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -258,176 +230,6 @@
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 2782;
-	};
-	E191771B11ADB18800B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 19";
-		rLen = 928;
-		rLoc = 343;
-		rType = 0;
-		vrLen = 2454;
-		vrLoc = 0;
-	};
-	E191771C11ADB18800B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 95";
-		rLen = 32;
-		rLoc = 2722;
-		rType = 0;
-		vrLen = 1506;
-		vrLoc = 2078;
-	};
-	E191772911ADB27C00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 104";
-		rLen = 0;
-		rLoc = 3058;
-		rType = 0;
-		vrLen = 1391;
-		vrLoc = 2391;
-	};
-	E191772A11ADB2DC00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 97";
-		rLen = 0;
-		rLoc = 2810;
-		rType = 0;
-		vrLen = 1410;
-		vrLoc = 2391;
-	};
-	E191772B11ADB2EE00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 97";
-		rLen = 0;
-		rLoc = 2799;
-		rType = 0;
-		vrLen = 1411;
-		vrLoc = 2391;
-	};
-	E191772C11ADB49700B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 27";
-		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 2098;
-		vrLoc = 0;
-	};
-	E191772D11ADB49700B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 97";
-		rLen = 0;
-		rLoc = 2799;
-		rType = 0;
-		vrLen = 1645;
-		vrLoc = 1014;
-	};
-	E191772E11ADB49700B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 623";
-		rLen = 0;
-		rLoc = 18930;
-		rType = 0;
-		vrLen = 1576;
-		vrLoc = 18104;
-	};
-	E191772F11ADB58B00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 623";
-		rLen = 0;
-		rLoc = 18930;
-		rType = 0;
-		vrLen = 1377;
-		vrLoc = 2570;
-	};
-	E191773011ADB58B00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 45";
-		rLen = 0;
-		rLoc = 1155;
-		rType = 0;
-		vrLen = 1088;
-		vrLoc = 46;
-	};
-	E191773111ADB5EF00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 46";
-		rLen = 0;
-		rLoc = 1147;
-		rType = 0;
-		vrLen = 1291;
-		vrLoc = 46;
-	};
-	E191773211ADB60500B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 46";
-		rLen = 0;
-		rLoc = 1125;
-		rType = 0;
-		vrLen = 1141;
-		vrLoc = 396;
-	};
-	E191773311ADB66900B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 69";
-		rLen = 0;
-		rLoc = 1445;
-		rType = 0;
-		vrLen = 1137;
-		vrLoc = 402;
-	};
-	E191773411ADB6CA00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 27";
-		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 1963;
-		vrLoc = 6404;
-	};
-	E191773511ADB6CA00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E191771511ADB18800B70162 /* jsGame.levels.js */;
-		name = "jsGame.levels.js: 36";
-		rLen = 31;
-		rLoc = 734;
-		rType = 0;
-		vrLen = 1137;
-		vrLoc = 402;
-	};
-	E191773611ADB6CA00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 379";
-		rLen = 34;
-		rLoc = 11690;
-		rType = 0;
-		vrLen = 1673;
-		vrLoc = 10023;
-	};
-	E191773711ADB6CA00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 359";
-		rLen = 0;
-		rLoc = 11232;
-		rType = 0;
-		vrLen = 1692;
-		vrLoc = 9800;
 	};
 	E191773811ADB9A500B70162 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -449,46 +251,6 @@
 		vrLen = 1137;
 		vrLoc = 402;
 	};
-	E191773A11ADB9A500B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 219";
-		rLen = 0;
-		rLoc = 7567;
-		rType = 0;
-		vrLen = 1806;
-		vrLoc = 6677;
-	};
-	E191773B11ADB9BB00B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 219";
-		rLen = 0;
-		rLoc = 7570;
-		rType = 0;
-		vrLen = 1806;
-		vrLoc = 6677;
-	};
-	E191773C11ADB9E600B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 214";
-		rLen = 0;
-		rLoc = 7408;
-		rType = 0;
-		vrLen = 1855;
-		vrLoc = 6677;
-	};
-	E191773D11ADBA1300B70162 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 213";
-		rLen = 0;
-		rLoc = 7326;
-		rType = 0;
-		vrLen = 1732;
-		vrLoc = 6946;
-	};
 	E191939111AC0E5C00C59B93 /* jsGame_board2.css */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.css;
@@ -496,15 +258,148 @@
 		path = www/jsGame_board2.css;
 		sourceTree = SOURCE_ROOT;
 	};
-	E192BE2111ACBD13003E3091 /* PBXTextBookmark */ = {
+	E191A19D11AE35BE00253F68 /* Movie.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Movie.m;
+		path = /Users/anthonydestefano/Documents/PhoneGapLib/Classes/Movie.m;
+		sourceTree = "<absolute>";
+	};
+	E191A24111AE446500253F68 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = E186180711A4FAD1000B12C3 /* jsGame.core.js */;
-		name = "jsGame.core.js: 31";
+		fRef = E100E92211A798DA00DD2B58 /* index.html */;
+		name = "index.html: 213";
 		rLen = 0;
-		rLoc = 662;
+		rLoc = 7326;
 		rType = 0;
-		vrLen = 1271;
-		vrLoc = 4816;
+		vrLen = 2817;
+		vrLoc = 5846;
+	};
+	E191A24211AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A19D11AE35BE00253F68 /* Movie.m */;
+		name = "Movie.m: 78";
+		rLen = 0;
+		rLoc = 2944;
+		rType = 0;
+		vrLen = 2944;
+		vrLoc = 0;
+	};
+	E191A24411AE446500253F68 /* jquery-1-4-2.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = "jquery-1-4-2.js";
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jquery-1-4-2.js";
+		sourceTree = "<absolute>";
+	};
+	E191A24611AE446500253F68 /* phonegap.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = phonegap.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/phonegap.js";
+		sourceTree = "<absolute>";
+	};
+	E191A24711AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */;
+		name = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	E191A24811AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */;
+		name = "___PROJECTNAMEASIDENTIFIER___AppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2006;
+		vrLoc = 124;
+	};
+	E191A24911AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */;
+		name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	E191A24A11AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	E191A24C11AE446500253F68 /* jsGame.farm.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.farm.js";
+		sourceTree = "<absolute>";
+	};
+	E191A24E11AE446500253F68 /* jquery.sounds.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jquery.sounds.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jquery.sounds.js";
+		sourceTree = "<absolute>";
+	};
+	E191A25011AE446500253F68 /* jsGame.levels.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.levels.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.levels.js";
+		sourceTree = "<absolute>";
+	};
+	E191A25111AE446500253F68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A25211AE446500253F68 /* jsGame.sound.manager.js */;
+		name = "jsGame.sound.manager.js: 9";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 1678;
+		vrLoc = 0;
+	};
+	E191A25211AE446500253F68 /* jsGame.sound.manager.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.sound.manager.js;
+		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.sound.manager.js;
+		sourceTree = "<absolute>";
+	};
+	E191A25611AE446500253F68 /* jsGame.sound.manager.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.sound.manager.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.sound.manager.js";
+		sourceTree = "<absolute>";
+	};
+	E191A25811AE446500253F68 /* jsGame.sound.profiles.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.sound.profiles.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.sound.profiles.js";
+		sourceTree = "<absolute>";
+	};
+	E192668611B8C643008B0594 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1C055A211B8C63000454174 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 114";
+		rLen = 0;
+		rLoc = 2856;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 2735;
 	};
 	E192BE2211ACBD13003E3091 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -516,74 +411,12 @@
 		vrLen = 766;
 		vrLoc = 1616;
 	};
-	E192BE2311ACBD13003E3091 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE2411ACBD13003E3091 /* jsGame_board.css */;
-		name = "jsGame_board.css: 184";
-		rLen = 0;
-		rLoc = 2762;
-		rType = 0;
-		vrLen = 661;
-		vrLoc = 2458;
-	};
 	E192BE2411ACBD13003E3091 /* jsGame_board.css */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.css;
 		name = jsGame_board.css;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame_board.css;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 4030}}";
-			sepNavSelRange = "{3185, 0}";
-			sepNavVisRange = "{2782, 994}";
-		};
-	};
-	E192BE2511ACBD13003E3091 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E100E92211A798DA00DD2B58 /* index.html */;
-		name = "index.html: 117";
-		rLen = 0;
-		rLoc = 4175;
-		rType = 0;
-		vrLen = 2124;
-		vrLoc = 3547;
-	};
-	E192BE2611ACBD13003E3091 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E10E53AD11A97B4200CD5EE0 /* jsGame.sounds.js */;
-		name = "jsGame.sounds.js: 96";
-		rLen = 17;
-		rLoc = 2084;
-		rType = 0;
-		vrLen = 868;
-		vrLoc = 1443;
-	};
-	E192BE3611ACCC27003E3091 /* jsGame.farm.behavior.js */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.javascript;
-		name = jsGame.farm.behavior.js;
-		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
-		sourceTree = "<absolute>";
-	};
-	E192BE4111ACF6BC003E3091 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE3611ACCC27003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 290";
-		rLen = 8;
-		rLoc = 9577;
-		rType = 0;
-		vrLen = 1377;
-		vrLoc = 1669;
-	};
-	E192BE4D11ACFDD5003E3091 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */;
-		name = "jsGame.farm.behavior.js: 607";
-		rLen = 0;
-		rLoc = 18930;
-		rType = 0;
-		vrLen = 1524;
-		vrLoc = 17286;
 	};
 	E192BE4E11ACFDD5003E3091 /* jsGame.farm.behavior.js */ = {
 		isa = PBXFileReference;
@@ -591,11 +424,13 @@
 		name = jsGame.farm.behavior.js;
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/jsGame.farm.behavior.js;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 11544}}";
-			sepNavSelRange = "{11232, 0}";
-			sepNavVisRange = "{11047, 1130}";
-		};
+	};
+	E1980FEA11AED1EC00D1450B /* jsGame.core.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.core.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.core.js";
+		sourceTree = "<absolute>";
 	};
 	E19BD23F11A659E200046288 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -654,6 +489,13 @@
 		path = /Users/anthonydestefano/Desktop/iPadFarmHero/www/phonegap.js;
 		sourceTree = "<absolute>";
 	};
+	E1A6B3B611B7168A005CCDF7 /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/index.html";
+		sourceTree = "<absolute>";
+	};
 	E1BEF72611AAF5DD009D0E31 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E1BEF72711AAF5DD009D0E31 /* build_audio.sh */;
@@ -681,6 +523,112 @@
 		vrLen = 2049;
 		vrLoc = 1899;
 	};
+	E1C0554111B8C5E800454174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1D911F111B781AA00D4D6B1 /* jsGame_board.css */;
+		name = "jsGame_board.css: 30";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 0;
+	};
+	E1C0554211B8C5E800454174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1A6B3B611B7168A005CCDF7 /* index.html */;
+		name = "index.html: 80";
+		rLen = 0;
+		rLoc = 3160;
+		rType = 0;
+		vrLen = 1321;
+		vrLoc = 2567;
+	};
+	E1C0554311B8C5E800454174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A25011AE446500253F68 /* jsGame.levels.js */;
+		name = "jsGame.levels.js: 75";
+		rLen = 0;
+		rLoc = 1965;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 1245;
+	};
+	E1C0554511B8C5E800454174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1C0554611B8C5E800454174 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 112";
+		rLen = 0;
+		rLoc = 2811;
+		rType = 0;
+		vrLen = 893;
+		vrLoc = 2721;
+	};
+	E1C0554611B8C5E800454174 /* jsGame.farm.behavior.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.behavior.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.farm.behavior.js";
+		sourceTree = "<absolute>";
+	};
+	E1C055A111B8C63000454174 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1C055A211B8C63000454174 /* jsGame.farm.behavior.js */;
+		name = "jsGame.farm.behavior.js: 114";
+		rLen = 0;
+		rLoc = 2856;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 2735;
+	};
+	E1C055A211B8C63000454174 /* jsGame.farm.behavior.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jsGame.farm.behavior.js;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame.farm.behavior.js";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 11921}}";
+			sepNavSelRange = "{2856, 0}";
+			sepNavVisRange = "{2735, 892}";
+		};
+	};
+	E1D9115211B7742800D4D6B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A24611AE446500253F68 /* phonegap.js */;
+		name = "phonegap.js: 1094";
+		rLen = 68;
+		rLoc = 29034;
+		rType = 0;
+		vrLen = 1764;
+		vrLoc = 28234;
+	};
+	E1D911E111B7815E00D4D6B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A25611AE446500253F68 /* jsGame.sound.manager.js */;
+		name = "jsGame.sound.manager.js: 120";
+		rLen = 0;
+		rLoc = 2494;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 2093;
+	};
+	E1D911E211B7815E00D4D6B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A25811AE446500253F68 /* jsGame.sound.profiles.js */;
+		name = "jsGame.sound.profiles.js: 78";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 946;
+	};
+	E1D911F111B781AA00D4D6B1 /* jsGame_board.css */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.css;
+		name = jsGame_board.css;
+		path = "/Users/anthonydestefano/Desktop/iPadFarmHero copy/www/jsGame_board.css";
+		sourceTree = "<absolute>";
+	};
 	E1DA093111A730A500C86FDA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E1E1D14411A5B5F200BC6E1B /* jquery.sounds.js */;
@@ -691,14 +639,62 @@
 		vrLen = 2410;
 		vrLoc = 4;
 	};
-	E1E1D14111A5B5F200BC6E1B /* PBXTextBookmark */ = {
+	E1DE52E911B4580B00B246A3 /* ReadMe.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1151, 1144}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 1386}";
+			sepNavWindowFrame = "{{2388, -214}, {750, 1200}}";
+		};
+	};
+	E1DE52ED11B45C1C00B246A3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = E1E1D14211A5B5F200BC6E1B /* jquery-1-4-2.js */;
+		fRef = E191A24411AE446500253F68 /* jquery-1-4-2.js */;
 		name = "jquery-1-4-2.js: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 33285;
+		vrLen = 34324;
+		vrLoc = 0;
+	};
+	E1DE52EE11B45C1C00B246A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1980FEA11AED1EC00D1450B /* jsGame.core.js */;
+		name = "jsGame.core.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2049;
+		vrLoc = 0;
+	};
+	E1DE52EF11B45C1C00B246A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A24E11AE446500253F68 /* jquery.sounds.js */;
+		name = "jquery.sounds.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2478;
+		vrLoc = 0;
+	};
+	E1DE52F011B45C1C00B246A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1DE52E911B4580B00B246A3 /* ReadMe.txt */;
+		name = "ReadMe.txt: 13";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 1386;
+		vrLoc = 0;
+	};
+	E1DE52F211B45C1C00B246A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E191A24C11AE446500253F68 /* jsGame.farm.js */;
+		name = "jsGame.farm.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1607;
 		vrLoc = 0;
 	};
 	E1E1D14211A5B5F200BC6E1B /* jquery-1-4-2.js */ = {
@@ -707,11 +703,6 @@
 		name = "jquery-1-4-2.js";
 		path = "/Users/anthonydestefano/Desktop/iPadFarmHero/www/jquery-1-4-2.js";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {17869, 2041}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 34324}";
-		};
 	};
 	E1E1D14411A5B5F200BC6E1B /* jquery.sounds.js */ = {
 		isa = PBXFileReference;
@@ -727,16 +718,6 @@
 	E1E1D1B011A5BD2D00BC6E1B /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 306A5517116BF8E100DDE61E /* Default-Landscape.png */;
-	};
-	E1E1D1B111A5BD2D00BC6E1B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */;
-		name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 203;
-		vrLoc = 0;
 	};
 	E1E1D1B211A5BD2D00BC6E1B /* PlistBookmark */ = {
 		isa = PlistBookmark;

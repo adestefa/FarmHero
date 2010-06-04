@@ -16,29 +16,11 @@
     var jsGame = new jsGame();
     jsGame.debug = 0;
    
-    
-
+    /** Main game loop boolean game is running when true */
+    var GAME_RUN_LOOP_ON = 1;
    
     /** total number of growth cycles */
     var GAME_DATA_NUM_GROWTH_CYCLES_PAST = 0;
-    
-    /** Growth cycle speed */
-    var GAME_SETTINGS_GROW_CYCLE_SPEED = 3000;
-    
-    /** which stage crops must be equal to in order to be harvested */
-    var GAME_SETTINGS_CYCLE_CAN_HARVEST = 5;
-    
-    /** How many growth cycles can a farmer go without anything in ground before penalty */
-    var GAME_SETTINGS_NUM_OF_NO_GROWTH_CYCLE_TRIGGER = 2;
-    
-    /** amount deducted from farmer's purse should he not have anything planted */
-    var GAME_SETTINGS_NO_GROWTH_PENALTY = 5;
-    
-    /** Number of items farmer picks before he makes a bushel */
-    var GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL = 5;
-    
-    /** Bonus amount awarded for a bushel */
-    var GAME_SETTINGS_BUSHEL_BONUS = 10;
     
     /** cost and value of each crop */
     var GAME_VALUE_SEED_CORN = 5;
@@ -47,7 +29,7 @@
     /** keep track of how many items harvested without a miss */
     var GAME_DATA_CORN_ITEMS_IN_A_ROW = 0;
     
-    
+ 
     var GAME_VALUE_SEED_BERRIES = 15;
     var GAME_VALUE_HARVEST_BERRIES = 30;
     var GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW = 0;
@@ -87,64 +69,77 @@
 		gShowPlayerSeeds();
 		gShowSeedPrices();
 		gSetCursorPlant(); 
+		GAME_RUN_LOOP_ON = 1;
 		gStart();
 	}
 
+var cloudCycles = 1;
+function moveCloud(){
+	if(jQuery('#cloud').position().left == 300){
+		//console.log("move right cycles:"+cloudCycles);
+		if(cloudCycles < 3){
+			jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+			cloudCycles++;
+		}else{
+			jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+			cloudCycles = 1;
+		}
+	}else{  
+		//console.log("move left");
+		jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
+	}  	
+}
    
     var GAME_INTERVAL; 
-    
+	    
 	function gStart(){
 		 /** Main game loop - growing time begins in the garden */
-		GAME_INTERVAL = setInterval(function(){
-		 gCycle();
-	     jsGame.recordGrowthCycle();
-	    }, GAME_SETTINGS_GROW_CYCLE_SPEED);
-		gStartSun();
+		gCycle();
+		jsGame.recordGrowthCycle();
+		
+		if(jQuery('#sun').position().left == 300){
+			//console.log("move right");
+		    jQuery('#sun').animate({left: "700px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
+		}else{  
+			//console.log("move left");
+		    jQuery('#sun').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED );
+		}  
+		moveCloud();
+	
+		if(GAME_RUN_LOOP_ON){
+			
+			GAME_INTERVAL = setTimeout("gStart()", GAME_SETTINGS_GROW_CYCLE_SPEED);
+		}else{
+			clearTimeout(GAME_INTERVAL);
+		}	
     }
-    
+    	
 	function gStop(){
-		clearInterval(GAME_INTERVAL);
-		gStopSun();
-    }
+		//console.log("clear interval");
+		//clearTimeout(GAME_INTERVAL);
+		GAME_RUN_LOOP_ON = 0;
+	}
     
 	function gPause(){
-		console.log("Game paused...");
+		jsGame.log("Game paused...");
 		gStop();
 	}
 
 	function gContinue(){
-		console.log("Continue game");
+		jsGame.log("Continue game");
 		gStart();
 	}
     
-    var GAME_SUN_INTERVAL;
-   
-	function gStartSun(){  
-		/** Sun icon animation */
-		GAME_SUN_INTERVAL = setInterval(function(){
-		if(jQuery('#sun').position().left == 300){
-		    jQuery('#sun').animate({left: "700px"}, 2900 );
-		}else{    
-		    jQuery('#sun').animate({left: "300px"}, 2900 );
-		}  
-	    },3000);
-	  }
     
-	function gStopSun(){
-	    console.log("Stop SUN");
-	    clearInterval(GAME_SUN_INTERVAL);
-	  }
-
    
     /**  display player's money totals */
     function gUpdatePlayerMoney(ani){
 		var currentMoney = parseInt(jQuery('#PLAYER_MONEY').html().substr(0));
 		//console.log("CURRENT MONEY:"+currentMoney+ "REAL MONEY:"+GAME_PLAYER_MONEY);
-		if(currentMoney > GAME_PLAYER_MONEY){
-	   // console.log("YOU LOST MONEY!");
-		}else{
-	    //console.log("YOU GOT MONEY!");
-		}
+		//if(currentMoney > GAME_PLAYER_MONEY){
+	  	//	}else{
+	    
+		//}
 		if(typeof ani !== "undefined"){
 			jQuery('#PLAYER_MONEY').css({fontSize: "16px", color: "red"})
 			.animate({fontSize: "2em"}, 600 )
@@ -216,9 +211,10 @@
 	
 	
 	GAME_DATA_NUM_GROWTH_CYCLES_PAST++;
-	console.log("Growth cycle "+ GAME_DATA_NUM_GROWTH_CYCLES_PAST +" begins..");
+	//	console.log("RUN LOOP:"+GAME_RUN_LOOP_ON)=
+	//console.log("Growth cycle "+ GAME_DATA_NUM_GROWTH_CYCLES_PAST +" begins..");
 	
-	
+		//console.log("GAME_SETTINGS_GROW_CYCLE_SPEED:"+GAME_SETTINGS_GROW_CYCLE_SPEED);
 	
 	var foundCrop = 0;
 	
@@ -240,6 +236,7 @@
 		    GAME_PLAYER_MONEY_LOSS = (GAME_PLAYER_MONEY_LOSS - GAME_VALUE_HARVEST_CORN);
 		    gUpdatePlayerMoney("animate");
 		    gAddLostHarvestToBin('corn',GAME_VALUE_HARVEST_WHEAT);
+			gSoundRotten();
 		}
 		    foundCrop = foundCrop + 1;
 	    }
@@ -251,6 +248,7 @@
 		    GAME_PLAYER_MONEY_LOSS = (GAME_PLAYER_MONEY_LOSS - GAME_VALUE_HARVEST_BERRIES);
 		    gUpdatePlayerMoney("animate");
 		    gAddLostHarvestToBin('berries',GAME_VALUE_HARVEST_WHEAT);
+			gSoundRotten();
 		}
 		foundCrop = foundCrop + 1;
 	    }
@@ -262,6 +260,7 @@
 		    GAME_PLAYER_MONEY_LOSS = (GAME_PLAYER_MONEY_LOSS - GAME_VALUE_HARVEST_WHEAT);
 		    gUpdatePlayerMoney("animate");
 		    gAddLostHarvestToBin('wheat',GAME_VALUE_HARVEST_WHEAT);
+			gSoundRotten();
 		}
 		foundCrop = foundCrop + 1;
 	    }	
@@ -276,15 +275,18 @@
 			GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY - GAME_SETTINGS_NO_GROWTH_PENALTY);
 			if(GAME_PLAYER_MONEY < 0){
 				GAME_PLAYER_MONEY = 0;
-				gUpdatePlayerMoney("animate");
+				gUpdatePlayerMoney();
 				gOutput("GAME OVER");
+			//	console.log("Game over calling stop");
 				gStop();
 			}else{
 				gUpdatePlayerMoney("animate");
+				gSoundNoGrowthPenalty();
 				gOutput("Plant something or your farm will continue to lose money!");
 			}
 	    }else if (jsGame.noGrowthCycles == 1){
 			gOutput("A farmer has to have something growing at all times, plant something!")
+			
 	    }
 	  	
 	    
@@ -295,6 +297,15 @@
 	
 	
     }
+
+	function gClearCell(boardName, id){
+		//console.log(boardName+":"+id);
+		
+		setTimeout(function(){
+				   jQuery("#"+boardName+"_"+id).css('background-color', "white").css('color','black').html("");
+				   }, 5000);		   
+		
+	}	
     
     /** Grow crop on given board at given cell id */
     function gGrowCrop(board,id){
@@ -309,8 +320,9 @@
 			var color = board.getColor(board.board[id].crop.stage);
 			jQuery("#"+board.gridName+"_"+id).css('border-color','black').css('background-color', color).html("");
 	    
-			jsGame.log(board.board[id].crop.name+" crop in Cell:"+id+" has grown and is now:"+ board.board[id].crop.age + " years old");
-		
+			//console.log(board.board[id].crop.name+" crop in Cell:"+id+" has grown and is now:"+ board.board[id].crop.age + " years old");
+			
+			
 			/** Capture when a crop dies (5th cycle) GAME_SETTINGS_CYCLE_CAN_HARVEST */
 			if(board.board[id].crop.stage === 6){
 				board.board[id].crop.alive=0;
@@ -319,13 +331,57 @@
 				.css('background-color', "white")
 				.css('color','red')
 				.html("-$"+board.board[id].crop.value);
+				
+				gClearCell(board.gridName,id);
+								
+				
 				return 1;
+				
+			/** flash cell border when ripe */
+			}else if(board.board[id].crop.stage === GAME_SETTINGS_CYCLE_CAN_HARVEST){
+				gFlashCell(board.gridName,id);
+			
 			}else{
 				return 0;
 			}
 		}
 		return 0;
     }
+
+	/** turn the cell's border on */
+	function gSetCellFlashOn(boardName, id){
+			jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','1px');
+	}
+	/** turn the cell's border off */
+	function gSetCellFlashOff(boardName, id){
+		jQuery("#"+boardName+"_"+id).css('border-color','black').css('border-width','0px');
+	}	
+		
+	/** flash cell border */
+	function gFlashCell(boardName, id){
+		
+		/** here we flash the cell's border a few times */
+		
+		setTimeout(function(){
+				   gSetCellFlashOn(boardName,id);
+				   },0);
+		
+		setTimeout(function(){
+				   gSetCellFlashOff(boardName,id);
+			},500);
+		
+		setTimeout(function(){
+				   gSetCellFlashOn(boardName,id);
+				   },1000);
+		
+		setTimeout(function(){
+				   gSetCellFlashOff(boardName,id);
+				   },1500);
+	
+				
+	
+	
+	}
    
     /** Purchase Seed */
     function gBuySeed(type){
@@ -340,8 +396,11 @@
 		    GAME_PLAYER_SEEDS_CORN++;
 		     var last = jQuery('#cornSeeds').html();
 		    jQuery('#cornSeeds').html(last + gMakeSeedGlyph(1) );
+			gSoundBuySeed();
+			
 		}else{
 		    gOutput("Not enough funds!");
+			gSoundBuyError();
 		}
 	  
 	    /** Buy a strawberry seed */
@@ -351,8 +410,10 @@
 		    GAME_PLAYER_SEEDS_BERRIES++;
 		    var last = jQuery('#berrySeeds').html();
 		    jQuery('#berrySeeds').html( last + gMakeSeedGlyph(1) );
+			gSoundBuySeed();
 		}else{
 		    gOutput("Not enough funds!");
+			gSoundBuyError();
 		}
 	    
 	    /** Buy a wheat seed */    
@@ -362,8 +423,10 @@
 		    GAME_PLAYER_SEEDS_WHEAT++;
 		    var last = jQuery('#wheatSeeds').html();
 		    jQuery('#wheatSeeds').html(last + gMakeSeedGlyph(1) );
+			gSoundBuySeed();
 		}else{
 		    gOutput("Not enough funds!");
+			gSoundBuyError();
 		}
 	    }
 	    
@@ -400,29 +463,30 @@
 	var i = parseInt(str[1]);
 	
 	//if(board.board[i].crop == "" || !board.board[i].crop.alive || board.board[i].crop.wasHarvested ){
-	   
-	    if(board.gridName === "corns"){
-	     var cornSeed = makeSeed("Corn",GAME_VALUE_HARVEST_CORN);
-	     board.board[i].setCrop(cornSeed);
-	     var last = jQuery('#cornSeeds .seedglyph').length;
-	     var seeds = gMakeSeedGlyph( last -1 );
-		jQuery('#cornSeeds').html(seeds);
+	   gSoundPlant(); // Play sound
+	
+		if(board.gridName === "corns"){
+			var cornSeed = makeSeed("Corn",GAME_VALUE_HARVEST_CORN);
+			board.board[i].setCrop(cornSeed);
+			var last = jQuery('#cornSeeds .seedglyph').length;
+			var seeds = gMakeSeedGlyph( last -1 );
+			jQuery('#cornSeeds').html(seeds);
 	    }
 	
 	    if(board.gridName === "strawberries"){
-		var berry = makeSeed("Strawberries",GAME_VALUE_HARVEST_BERRIES);
-		board.board[i].setCrop(berry );
-		var last = jQuery('#berrySeeds .seedglyph').length;
-		var seeds = gMakeSeedGlyph( last -1 );
-		jQuery('#berrySeeds').html(seeds);
+			var berry = makeSeed("Strawberries",GAME_VALUE_HARVEST_BERRIES);
+			board.board[i].setCrop(berry );
+			var last = jQuery('#berrySeeds .seedglyph').length;
+			var seeds = gMakeSeedGlyph( last -1 );
+			jQuery('#berrySeeds').html(seeds);
 	    }
 	
 	    if(board.gridName === "wheat"){
-		var wheat = makeSeed("Wheat",GAME_VALUE_HARVEST_WHEAT);
-		board.board[i].setCrop(wheat );
-		var last = jQuery('#wheatSeeds .seedglyph').length;
-		var seeds = gMakeSeedGlyph( last -1 );
-		jQuery('#wheatSeeds').html(seeds);
+			var wheat = makeSeed("Wheat",GAME_VALUE_HARVEST_WHEAT);
+			board.board[i].setCrop(wheat );
+			var last = jQuery('#wheatSeeds .seedglyph').length;
+			var seeds = gMakeSeedGlyph( last -1 );
+			jQuery('#wheatSeeds').html(seeds);
 	    }
 	
 	//}
@@ -437,6 +501,7 @@
 	var str = id.split("_");
 	var i = parseInt(str[1]);
 	board.board[i].crop.harvest();
+	gSoundHarvest(); // Play sound
 	// show corp value in green as replacement
 	jQuery("#"+id)
 	    .css('background-color', "white")
@@ -456,6 +521,8 @@
 	var currVal = jQuery('#bin-'+type).html();
 	//var markup = '<span style="color:green">+$'+value+'</span>';
 	
+	
+		
 	if(type == "corn"){
 	    markup = '<img width="18" height="18" src="'+GAME_ICON_CORN+'" />';
 	    
@@ -464,12 +531,12 @@
 	    /** check if farmer harvested enough items to make a bushel */
 	    if(GAME_DATA_CORN_ITEMS_IN_A_ROW >= GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL){
 		
-		gOutput("You made a Corn Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
-		var currVal = jQuery('#bin-'+type).html();
-		var markup = '<img width="18" height="18" src="'+GAME_ICON_CORN+'" />';
-		jQuery('#bin-'+type).css('color','green').html(currVal + markup);
-	
-		animateBushel('corn');
+			gOutput("You made a Corn Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
+			var currVal = jQuery('#bin-'+type).html();
+			var markup = '<img width="18" height="18" src="'+GAME_ICON_CORN+'" />';
+			jQuery('#bin-'+type).css('color','green').html(currVal + markup);
+			gSoundBundle();
+			animateBushel('corn');
 	      }
 	      
 	      
@@ -477,16 +544,17 @@
 	     markup = '<img width="18" height="18" src="'+GAME_ICON_STRAWBERRY+'" />';
 	     GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW = GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW  + 1;
 	     
-	       /** check if farmer harvested enough items to make a bushel */
-	    if(GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW >= GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL){
+		/** check if farmer harvested enough items to make a bushel */
+		if(GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW >= GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL){
 		
-		gOutput("You made a strawberry Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
-		var currVal = jQuery('#bin-'+type).html();
-		var markup = '<img width="18" height="18" src="'+GAME_ICON_STRAWBERRY+'" />';
-		jQuery('#bin-'+type).css('color','green').html(currVal + markup);
-	
-		animateBushel('berries');
-	      }
+			gOutput("You made a strawberry Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
+			
+			var currVal = jQuery('#bin-'+type).html();
+			var markup = '<img width="18" height="18" src="'+GAME_ICON_STRAWBERRY+'" />';
+			jQuery('#bin-'+type).css('color','green').html(currVal + markup);
+			gSoundBundle();	
+			animateBushel('berries');
+		}
 	      
 	      
 	}else if(type == "wheat"){
@@ -495,12 +563,12 @@
 	       /** check if farmer harvested enough items to make a bushel */
 	    if(GAME_DATA_WHEAT_ITEMS_IN_A_ROW >= GAME_SETTINGS_NUM_OF_ITEMS_IN_A_BUSHEL){
 		
-		gOutput("You made a wheat Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
-		var currVal = jQuery('#bin-'+type).html();
-		var markup = '<img width="18" height="18" src="'+GAME_ICON_MONEY+'" />';
-		jQuery('#bin-'+type).css('color','green').html(currVal + markup);
-	
-		animateBushel('wheat');
+			gOutput("You made a wheat Bushel worth "+GAME_SETTINGS_BUSHEL_BONUS+"!!");
+			var currVal = jQuery('#bin-'+type).html();
+			var markup = '<img width="18" height="18" src="'+GAME_ICON_MONEY+'" />';
+			jQuery('#bin-'+type).css('color','green').html(currVal + markup);
+			gSoundBundle();
+			animateBushel('wheat');
 	      }
 	     
 	     
@@ -509,59 +577,58 @@
     }
     
     function animateBushel(type){
-	gStop(); // pause growing cycle
-	  console.log("Animate Bushel:"+type);
-	jQuery('#bin-'+type+' img').fadeOut('fast').fadeIn('fast').fadeOut('slow').fadeIn('slow');
+		//gStop(); // pause growing cycle
+		jsGame.log("Animate Bushel:"+type);
+		jQuery('#bin-'+type+' img').fadeOut('fast').fadeIn('fast').fadeOut('slow').fadeIn('slow');
 	
-	setTimeout(function(){
-	    jQuery('#bin-'+type+' img:visible').eq(4).fadeOut('fast');
+		setTimeout(function(){
+				   jQuery('#bin-'+type+' img:visible').eq(4).fadeOut('fast');
 	    
-	}, 100);
-	setTimeout(function(){
-	    jQuery('#bin-'+type+' img:visible').eq(3).fadeOut('fast');
+				   }, 100);
+		setTimeout(function(){
+				   jQuery('#bin-'+type+' img:visible').eq(3).fadeOut('fast');
 	
-	}, 300);
-	setTimeout(function(){
-	    jQuery('#bin-'+type+' img:visible').eq(2).fadeOut('fast');
+				   }, 300);
+		setTimeout(function(){
+				   jQuery('#bin-'+type+' img:visible').eq(2).fadeOut('fast');
 	    
-	}, 400);
-	setTimeout(function(){
-	    jQuery('#bin-'+type+' img:visible').eq(1).fadeOut('fast');
+				   }, 400);
+		setTimeout(function(){
+				   jQuery('#bin-'+type+' img:visible').eq(1).fadeOut('fast');
 	 
-	}, 500);
-	setTimeout(function(){
+				   }, 500);
+		setTimeout(function(){
 	    
-	    jQuery('#bin-'+type+' img:visible').fadeOut('fast');
-	    jQuery('#bin-'+type).html("<img src='images/c.gif' width='1' height='20' />");
+				   jQuery('#bin-'+type+' img:visible').fadeOut('fast');
+				   jQuery('#bin-'+type).html("<img src='images/c.gif' width='1' height='20' />");
 
-	}, 700);
-	gOutput("You created a "+type+" Bushel worth $50!");
+				   }, 700);
+		gOutput("You created a "+type+" Bushel worth $50!");
 	
 	
-	gResetBushelCount(type);
+		gResetBushelCount(type);
 	
-	setTimeout(function(){
+		setTimeout(function(){
 	
-	    jQuery('#icon-'+type+' img').animate({height: "50px", width: "50px"}, 300 )
-	   .animate({height: "30px", width: "30px"}, 300 );
+				   jQuery('#icon-'+type+' img').animate({height: "50px", width: "50px"}, 300 ).animate({height: "30px", width: "30px"}, 300 );
 	    
 	    
-	    GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_SETTINGS_BUSHEL_BONUS);
-	    gUpdatePlayerMoney("animate");
-	    var bushels = jQuery('#bushel-'+type).html();
-	    jQuery('#bushel-'+type).html( parseInt(bushels) + 1);
-	     gStart(); // resume growing
-	}, 900);
+				   GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_SETTINGS_BUSHEL_BONUS);
+				   gUpdatePlayerMoney("animate");
+				   var bushels = jQuery('#bushel-'+type).html();
+				   jQuery('#bushel-'+type).html( parseInt(bushels) + 1);
+					}, 900);
 	
     }
-    function gResetBushelCount(type){
-	if(type == "corn"){
-	    GAME_DATA_CORN_ITEMS_IN_A_ROW=0;
-	}else if(type == "berries"){
-	    GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW=0;
-	}else if(type == "wheat"){
-	    GAME_DATA_WHEAT_ITEMS_IN_A_ROW=0;
-	}
+    
+	function gResetBushelCount(type){
+		if(type == "corn"){
+			GAME_DATA_CORN_ITEMS_IN_A_ROW=0;
+		}else if(type == "berries"){
+			GAME_DATA_STRAWBERRIES_ITEMS_IN_A_ROW=0;
+		}else if(type == "wheat"){
+			GAME_DATA_WHEAT_ITEMS_IN_A_ROW=0;
+		}
     }
     
     
@@ -610,25 +677,28 @@
 	/** Action: 'Plant' */
 	if(GAME_CURRENT_ACTION == "Plant"){
 	   
-	   
+		
+		
 	    /** Plant Corn */
 	    if(board.name == "Corn"){
-		if(GAME_PLAYER_SEEDS_CORN > 0){
+			
+			if(GAME_PLAYER_SEEDS_CORN > 0){
 		        board.clicker(id);      // record click for this cell
-			board.renderSeed( id ); // show cell on screen
+				board.renderSeed( id ); // show cell on screen
+				
+				
+				GAME_PLAYER_SEEDS_CORN--;// use up a seed of this type from player
+				gShowPlayerSeeds();      // update player seed count display
 			
-			GAME_PLAYER_SEEDS_CORN--;// use up a seed of this type from player
-			gShowPlayerSeeds();      // update player seed count display
+				gPlantCrop(board,id);// add crop object to this cell
 			
-			gPlantCrop(board,id);// add crop object to this cell
-			
-			gOutput("You planted a Corn seed!");
-			setTimeout(function(){
-			    gOutput("Remember Corn is Yellow when ripe!");
-			}, 3000);
-		}else{
-		    gOutput("You don't have any Corn seeds to plant!");
-		}
+				gOutput("You planted a Corn seed!");
+				setTimeout(function(){
+						   gOutput("Remember Corn is Yellow when ripe!");
+						   }, 3000);
+			}else{
+				gOutput("You don't have any Corn seeds to plant!");
+			}
 	    
 	    
 	    
@@ -702,60 +772,81 @@
 		    
 		    /** You can only pick corn that is rip enough (maybe change this later) */
 		    if( stage == GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
 			
-			// add value of this harvest to player's money
-			GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_CORN);
-			GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_CORN);
+								
+				gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
 			
-			gUpdatePlayerMoney();
+				// add value of this harvest to player's money
+				GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_CORN);
+				GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_CORN);
+			
+				gUpdatePlayerMoney();
 		    	
-			/** display harvest under garden */		
-			gAddHarvestToBin("corn",GAME_VALUE_HARVEST_CORN);
+				/** display harvest under garden */		
+				gAddHarvestToBin("corn",GAME_VALUE_HARVEST_CORN);
+				
+				 gClearCell(board.gridName,str[1]);
 			
-			jsGame.log("Harvest crop:"+id);
+			
+				jsGame.log("Harvest crop:"+id);
 		    }else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Your Corn is Rotten!!");
-		    }else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Not ripe yet!");
+				gOutput("Your Corn is Rotten!!");
+				gSoundTooLate();
+			}else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
+				gOutput("Not ripe yet!");
+				gSoundTooEarly();
 		    }
 		}
 		
 		if(board.name == "Strawberries"){
 		    if( stage == GAME_SETTINGS_CYCLE_CAN_HARVEST ){
-			gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
 			
-			// add value of this harvest to player's money
-			GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_BERRIES);
-			GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_BERRIES);
+				
+				gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
 			
-			gUpdatePlayerMoney();
-			gAddHarvestToBin("berries",GAME_VALUE_HARVEST_BERRIES);
+				// add value of this harvest to player's money
+				GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_BERRIES);
+				GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_BERRIES);
 			
-			jsGame.log("Harvest crop:"+id);
+				gUpdatePlayerMoney();
+				gAddHarvestToBin("berries",GAME_VALUE_HARVEST_BERRIES);
+			
+						   gClearCell(board.gridName,str[1]);
+				
+				
+				jsGame.log("Harvest crop:"+id);
 		    }else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Your Srawberries are Rotten!!");
+				gOutput("Your Srawberries are Rotten!!");
+				gSoundTooLate();
 		    }else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Not ripe yet!");
+				gOutput("Not ripe yet!");
+				gSoundTooEarly();
+				
 		    }
 		}
 		
 		if(board.name == "Wheat"){
 		    if( stage == GAME_SETTINGS_CYCLE_CAN_HARVEST){
-		    gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
+		   
+				gHarvestCrop(board,id); // update crop object it has been harvested and change icon on screen
 		    
-		    // add value of this harvest to player's money
-		    GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_WHEAT);
-		    GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_WHEAT);
+				// add value of this harvest to player's money
+				GAME_PLAYER_MONEY = (GAME_PLAYER_MONEY + GAME_VALUE_HARVEST_WHEAT);
+				GAME_PLAYER_MONEY_PROFIT = (GAME_PLAYER_MONEY_PROFIT + GAME_VALUE_HARVEST_WHEAT);
 		    
-		    gUpdatePlayerMoney();
-		    gAddHarvestToBin("wheat",GAME_VALUE_HARVEST_WHEAT);
+				gUpdatePlayerMoney();
+				gAddHarvestToBin("wheat",GAME_VALUE_HARVEST_WHEAT);
 		    
-		    jsGame.log("Harvest crop:"+id);
-		    }else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Your Wheat is Rotten!!");
+				
+				gClearCell(board.gridName,str[1]);
+										
+				jsGame.log("Harvest crop:"+id);
+			}else if( stage > GAME_SETTINGS_CYCLE_CAN_HARVEST){
+				gOutput("Your Wheat is Rotten!!");
+				gSoundTooLate();
 		    }else if( stage < GAME_SETTINGS_CYCLE_CAN_HARVEST){
-			gOutput("Not ripe yet!");
+				gOutput("Not ripe yet!");
+				gSoundTooEarly();
 		    }
 		}
 	
@@ -763,49 +854,13 @@
 	}  
 	
     }
-  
-  
-    /** game sounds */
-    Sounds = new Array();
+
+
 	
-	Sounds['coin'] = 'smw_coin.wav';
-   
-	Sounds['drink'] = ['drink.wav','glugglug.wav'];
-    
-	Sounds['plant'] = 'slash.wav';
-    Sounds['harvest'] = 'boing_1.wav';
- 
-    function gSoundPlant(){
-		gPlaySound(Sounds['plant']);
-    }
-    
-    function gSoundHarvest(){
-		gPlaySound(Sounds['harvest']);
-    }
-
-	function gSoundCoin(){
-		//new Media('sounds/smw_coin.wav').play({numberOfLoops:1});
-		jQuery.sound.play("sounds/smw_coin.wav");
-
-	}
-
-    /** play a wav file in sounds/ sub directory */
-    function gPlaySound( sound ){
-        console.log("Playing sound: sounds/"+sound);
-        jQuery.sound.play("sounds/"+sound,{timeout:5000});
-    }
-	
-
-    /** given a valid soundFamily name -  play a random sound */
-    function gPlayRandomSound( soundFamily ){
-        var ranNum = randNum(Sounds[soundFamily].length);
-        playSound( Sounds[soundFamily][ranNum] );
-    }
-    
-  
+      
 
     
-    
+
     
     
     
