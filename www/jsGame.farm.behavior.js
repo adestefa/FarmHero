@@ -73,6 +73,12 @@
 		jQuery('#dialog_welcome').show();
 		
 	}
+ 
+	function gShowGameOverDialog(){
+		jQuery('#page').fadeOut();
+		jQuery('#dialog_game_over').fadeIn();
+	
+	}
 
 	/** setup and play game */
 	function gInitializeAndPlay(){
@@ -297,6 +303,7 @@
 				gOutput("GAME OVER");
 			//	console.log("Game over calling stop");
 				gStop();
+				gShowGameOverDialog();
 			}else{
 				gUpdatePlayerMoney("animate");
 				gSoundNoGrowthPenalty();

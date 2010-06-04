@@ -73,6 +73,12 @@
 		jQuery('#dialog_welcome').show();
 		
 	}
+ 
+	function gShowGameOverDialog(){
+		jQuery('#page').fadeOut();
+		jQuery('#dialog_game_over').fadeIn();
+	
+	}
 
 	/** setup and play game */
 	function gInitializeAndPlay(){
@@ -88,27 +94,30 @@
 
 	}
 
-var cloudCycles = 1;
-function moveCloud(){
-	if(jQuery('#cloud').position().left == 300){
-		//console.log("move right cycles:"+cloudCycles);
-		if(cloudCycles < 3){
-			jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
-			cloudCycles++;
-		}else{
-			jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
-			cloudCycles = 1;
-		}
-	}else{  
-		//console.log("move left");
-		jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
-	}  	
-}
+	var cloudCycles = 1;
+	function moveCloud(){
+		if(jQuery('#cloud').position().left == 300){
+			//console.log("move right cycles:"+cloudCycles);
+			if(cloudCycles < 3){
+				jQuery('#cloud').animate({left: "400px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+				cloudCycles++;
+			}else{
+				jQuery('#cloud').animate({left: "800px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000 );
+				cloudCycles = 1;
+			}
+		}else{  
+			//console.log("move left");
+			jQuery('#cloud').animate({left: "300px"}, GAME_SETTINGS_GROW_CYCLE_SPEED + 3000);
+		}  	
+	}
    
     var GAME_INTERVAL; 
 	    
 	function gStart(){
-		 /** Main game loop - growing time begins in the garden */
+		
+		if(GAME_RUN_LOOP_ON){
+		
+		/** Main game loop - growing time begins in the garden */
 		gCycle();
 		jsGame.recordGrowthCycle();
 		
@@ -121,7 +130,7 @@ function moveCloud(){
 		}  
 		moveCloud();
 	
-		if(GAME_RUN_LOOP_ON){
+		
 			
 			GAME_INTERVAL = setTimeout("gStart()", GAME_SETTINGS_GROW_CYCLE_SPEED);
 		}else{
@@ -294,6 +303,7 @@ function moveCloud(){
 				gOutput("GAME OVER");
 			//	console.log("Game over calling stop");
 				gStop();
+				gShowGameOverDialog();
 			}else{
 				gUpdatePlayerMoney("animate");
 				gSoundNoGrowthPenalty();

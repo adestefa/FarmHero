@@ -68,25 +68,42 @@
     
 	<div class="dialog" id="dialog_welcome">
 	
-	<h2>FarmHero is a game that is easy to learn but hard to master</h2>
-		
+		<h2>Do you have what it takes to be a FarmHero?</h2>
+	
+		<h3>Always have something growing and protect your harvest from spoiling.</h3>
+			
 		<ol>
-		<li>You can purchase Seeds at any time</li>
-		<li>Plant seeds by selecting "Plant" action and clicking inside the crop area</li>
-		<li>Watch the crops change color as the Sun passes in the sky</li>
-		<li>Harvest crops by clicking them when they match the ripe color</li>
-	</ol>
-  	<h3>A Farm can only last 2 growth cycles (1 round trip of the Sun)<br /> without anything growing before the farm starts losing money.</h3>
+			<li>You can purchase Seeds at any time</li>
+			<li>Plant seeds by selecting "Plant" action and clicking inside the crop area</li>
+			<li>Watch the crops grow and change color as the Sun passes in the sky</li>
+			<li>Harvest crops by selecting "Harvest" action and clicking when they turn the ripe color</li>
+			<li>Harvest 5 of the same crop to create a Bundle worth $50!</li>
+		</ol>
+		<h3>A Farm can only last 2 growth cycles (1 round trip of the Sun)<br /> without anything growing before the farm starts losing money.</h3>
 	
-	<br /
+		<br />
+		<i>Tip: All crops grow one color in the time it takes the Sun to move across the sky.</i>
 	
-	<h2><a href="javascript:;" onclick="gNewGame()">Start Game</a></h2>
+		<h2><a href="javascript:;" onclick="gNewGame()">Start Game</a></h2>
 	
 	</div>
+	
+	
     
+	
+	
+	<div class="dialog" id="dialog_game_over">
+		<br /><br />
+		<h1>Game Over!</h1>
+		<h2><a href="javascript:;" onclick="gNewGame()">New Game</a></h2>
+	</div>
+	
+	
+	
+	
 	<div class="dialog" id="dialog_win">
-		
-		<h2><a href="javascript:;" onclick="gNewGame()">New game</a></h2>
+		<h1>You won this round!</h1>
+		<h2><a href="javascript:;" onclick="gNewGame()">Next round</a></h2>
 	</div>
 	
 	
