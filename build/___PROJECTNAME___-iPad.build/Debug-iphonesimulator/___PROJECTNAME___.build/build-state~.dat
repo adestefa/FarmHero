@@ -1,1042 +1,0 @@
-T___PROJECTNAME___
-v7
-r0
-t295500926.000041
-cCheck dependencies
-cProcessInfoPlistFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist ___PROJECTNAMEASIDENTIFIER___-Info.plist
-cPhaseScriptExecution "Copy PhoneGap Javascript" /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-cPhaseScriptExecution "Touch www folder" /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/www www
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION /Users/anthonydestefano/Documents/PhoneGapLib/VERSION
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png Default.png
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png icon.png
-cCopyPlistFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist PhoneGap.plist
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png icon-72.png
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png Default-Landscape.png
-cCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png Default-Portrait.png
-cProcessPCH /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o /Users/anthonydestefano/Desktop/iPadFarmHero/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o /Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___ normal i386
-cGenerateDSYMFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-cTouch /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BB55C360000000000000110
-t1270176822
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004B9F1E0B0000000000012140
-t1268719115
-s74048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004B9F1E0800000000000000EB
-t1268719112
-s235
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004B9F2554000000000003E8A0
-t1268720980
-s256160
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
-c000000004B9F25490000000000000A8C
-t1268720969
-s2700
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c000000004B9F32170000000000128990
-t1268724247
-s1214864
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
-c000000004B9F320E00000000000001D4
-t1268724238
-s468
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004B9F1D810000000000193D80
-t1268718977
-s1654144
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
-c000000004B9F1D6D000000000000E37C
-t1268718957
-s58236
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004B9F1D6800000000001255B0
-t1268718952
-s1201584
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BA03AB3000000000026F020
-t1268791987
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004BA18C610000000000060DB0
-t1268878433
-s396720
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004BA18C5B00000000000001AF
-t1268878427
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F1DE40000000000289C20
-t1268719076
-s2661408
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F1DD60000000000001355
-t1268719062
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004B9F33530000000000117CE0
-t1268724563
-s1146080
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c000000004B9F2556000000000005AF90
-t1268720982
-s372624
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004B9F27B9000000000011BF20
-t1268721593
-s1163040
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004B9F1D0B0000000000055570
-t1268718859
-s349552
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
-c000000004BA6CAED00000000000011E5
-t1269222125
-s4581
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BA6CAEC000000000000098F
-t1269222124
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
-c000000004BA6CAED0000000000001971
-t1269222125
-s6513
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
-c000000004BA6CAED0000000000000BF1
-t1269222125
-s3057
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
-c000000004BA6CAEC0000000000000704
-t1269222124
-s1796
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BA6CB31000000000214E400
-t1269222193
-s34923520
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.h
-c000000004BC7E88F000000000000014E
-t1271392399
-s334
-i<UIKit/UIKit.h>
-i"PhoneGapDelegate.h"
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-c000000004BC7E88F0000000000000852
-t1271392399
-s2130
-i"___PROJECTNAMEASIDENTIFIER___AppDelegate.h"
-i"PhoneGapViewController.h"
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/Default-Landscape.png
-c000000004BC7E88F000000000000154E
-t1271392399
-s5454
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/Default-Portrait.png
-c000000004BC7E88F00000000000016C0
-t1271392399
-s5824
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/Default.png
-c000000004BC7E88F0000000000000BAE
-t1271392399
-s2990
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/PhoneGap.plist
-c000000004BC7E88F000000000000030F
-t1271392399
-s783
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch
-c000000004BC7E88F00000000000000CB
-t1271392399
-s203
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app
-t1273807885
-s442
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-t1273807885
-s102
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png
-t1273807366
-s5454
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png
-t1273807366
-s5824
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png
-t1273807366
-s2990
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist
-t1273807366
-s928
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist
-t1273807366
-s352
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PkgInfo
-t1273807366
-s8
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION
-t1273807366
-s5
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-t1273807885
-s230672
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png
-t1273807366
-s5049
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png
-t1273807366
-s3126
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/www
-t1273807884
-s136
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-t1273807885
-s43848
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList
-c000000004BECC40C0000000000000172
-t1273807884
-s370
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-t1273807885
-s6188
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-c000000004BECC2060000000000000027
-t1273807366
-s39
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-c000000004BECC20600000000000000BE
-t1273807366
-s190
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/icon-72.png
-c000000004BC7E88F00000000000013B9
-t1271392399
-s5049
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/icon.png
-c000000004BC7E88F0000000000000C36
-t1271392399
-s3126
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m
-c000000004BC7E88F00000000000001AF
-t1271392399
-s431
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/PhoneGap-based Application/www
-c000000004BECC29400000000000000AA
-t1273807508
-s170
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.h
-c000000004BC7E88F000000000000014E
-t1271392399
-s334
-i<UIKit/UIKit.h>
-i"PhoneGapDelegate.h"
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-c000000004BC7E88F0000000000000852
-t1271392399
-s2130
-i"___PROJECTNAMEASIDENTIFIER___AppDelegate.h"
-i"PhoneGapViewController.h"
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/Default-Landscape.png
-c000000004BC7E88F000000000000154E
-t1271392399
-s5454
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/Default-Portrait.png
-c000000004BC7E88F00000000000016C0
-t1271392399
-s5824
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/Default.png
-c000000004BC7E88F0000000000000BAE
-t1271392399
-s2990
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/PhoneGap.plist
-c000000004BC7E88F000000000000030F
-t1271392399
-s783
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER____Prefix.pch
-c000000004BC7E88F00000000000000CB
-t1271392399
-s203
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app
-t1273808125
-s442
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-t1273808125
-s102
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png
-t1273808125
-s5454
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png
-t1273808125
-s5824
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png
-t1273808124
-s2990
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist
-t1273808124
-s928
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist
-t1273808125
-s352
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PkgInfo
-t1273808124
-s8
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION
-t1273808124
-s5
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-t1273808125
-s230616
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png
-t1273808125
-s5049
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png
-t1273808124
-s3126
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/www
-t1273808125
-s408
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-t1273808125
-s43820
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList
-c000000004BECC4FC0000000000000156
-t1273808124
-s342
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-t1273808125
-s6160
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-c000000004BECC4FC0000000000000027
-t1273808124
-s39
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-c000000004BECC4FC00000000000000BE
-t1273808124
-s190
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/icon-72.png
-c000000004BC7E88F00000000000013B9
-t1271392399
-s5049
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/icon.png
-c000000004BC7E88F0000000000000C36
-t1271392399
-s3126
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/main.m
-c000000004BC7E88F00000000000001AF
-t1271392399
-s431
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/iPadFarmHero/www
-c000000004BECC4FC00000000000001BA
-t1273808124
-s442
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.h
-c000000004BC7E88F000000000000014E
-t1271392399
-s334
-i<UIKit/UIKit.h>
-i"PhoneGapDelegate.h"
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-c000000004BC7E88F0000000000000852
-t1271392399
-s2130
-i"___PROJECTNAMEASIDENTIFIER___AppDelegate.h"
-i"PhoneGapViewController.h"
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Default-Landscape.png
-c000000004BC7E88F000000000000154E
-t1271392399
-s5454
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Default-Portrait.png
-c000000004BC7E88F00000000000016C0
-t1271392399
-s5824
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Default.png
-c000000004BC7E88F0000000000000BAE
-t1271392399
-s2990
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/PhoneGap.plist
-c000000004BC7E88F000000000000030F
-t1271392399
-s783
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch
-c000000004BC7E88F00000000000000CB
-t1271392399
-s203
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app
-t1273807418
-s442
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-t1273807367
-s102
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png
-t1273807366
-s5454
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png
-t1273807366
-s5824
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png
-t1273807366
-s2990
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist
-t1273807366
-s928
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist
-t1273807366
-s352
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PkgInfo
-t1273807366
-s8
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION
-t1273807366
-s5
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-t1273807367
-s230724
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png
-t1273807366
-s5049
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png
-t1273807366
-s3126
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/www
-t1273807418
-s136
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-t1273807367
-s43872
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList
-c000000004BECC206000000000000018C
-t1273807366
-s396
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-t1273807367
-s6212
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-c000000004BECC2060000000000000027
-t1273807366
-s39
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-c000000004BECC20600000000000000BE
-t1273807366
-s190
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/icon-72.png
-c000000004BC7E88F00000000000013B9
-t1271392399
-s5049
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/icon.png
-c000000004BC7E88F0000000000000C36
-t1271392399
-s3126
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m
-c000000004BC7E88F00000000000001AF
-t1271392399
-s431
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/www
-c000000004BECC2390000000000000088
-t1273807417
-s136
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/Contacts.h
-c000000004BC7E88F0000000000000A53
-t1271392399
-s2643
-i<Foundation/Foundation.h>
-i<AddressBook/ABAddressBook.h>
-i<AddressBookUI/AddressBookUI.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/DebugConsole.h
-c000000004BC7E88F0000000000000170
-t1271392399
-s368
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/Device.h
-c000000004BC7E88F0000000000000141
-t1271392399
-s321
-i<UIKit/UIKit.h>
-i<UIKit/UIDevice.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/JSON/JSON.h
-c000000004BC7E88F00000000000008F9
-t1271392399
-s2297
-i"SBJSON.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/Location.h
-c000000004BC7E88F0000000000000530
-t1271392399
-s1328
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
-c000000004BC7E88F00000000000002ED
-t1271392399
-s749
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/PhoneGapDelegate.h
-c000000004BC7E88F00000000000006C7
-t1271392399
-s1735
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<UIKit/UINavigationController.h>
-i"JSON/JSON.h"
-i"Location.h"
-i"Device.h"
-i"Sound.h"
-i"Contacts.h"
-i"DebugConsole.h"
-i"UIControls.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
-c000000004BC7E88F00000000000002C7
-t1271392399
-s711
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/Sound.h
-c000000004BC7E88F000000000000060C
-t1271392399
-s1548
-i<Foundation/Foundation.h>
-i<AudioToolbox/AudioServices.h>
-i<AVFoundation/AVFoundation.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/Classes/UIControls.h
-c000000004BC7E88F000000000000066A
-t1271392399
-s1642
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<UIKit/UITabBar.h>
-i<UIKit/UIToolbar.h>
-i"PhoneGapCommand.h"
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/VERSION
-c000000004BC7E88F0000000000000005
-t1271392399
-s5
-
-N/Users/anthonydestefano/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
-c000000004BECC4FC00000000000CA7E0
-t1273808124
-s829408
-
-N/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-t1273807367
-s13805456
-
-N/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-t1273807885
-s13805456
-
-N/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-t1273808125
-s13805456
-
-N___PROJECTNAMEASIDENTIFIER___-Info.plist
-c000000004BC7E88F000000000000054B
-t1271392399
-s1355
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies295500924#295500924#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500685.569460
-e295500685.660124
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@117"Compile /Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m295500685#295500685#0(0"0(0#0#109"/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m4300911832#2561"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c "/Users/anthonydestefano/Desktop/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m" -o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o"0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500167.415096
-e295500167.514026
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@130"Compile /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m295500167#295500167#0(0"0(0#0#122"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m4300911832#2704"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m" -o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o"0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o /Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500925.766616
-e295500925.864884
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o
-x/Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m295500925#295500925#0(0"0(0#0#95"/Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m4300911832#2385"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap -F/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/include -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386 -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/anthonydestefano/Desktop/iPadFarmHero/Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m -o /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAMEASIDENTIFIER___AppDelegate.o0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500685.567929
-e295500685.622466
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m295500685#295500685#0(0"0(0#0#65"/Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m4300911832#2481"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c "/Users/anthonydestefano/Desktop/PhoneGap-based Application/main.m" -o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500167.413804
-e295500167.482547
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m295500167#295500167#0(0"0(0#0#78"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m4300911832#2624"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/main.m" -o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o /Users/anthonydestefano/Desktop/iPadFarmHero/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500925.765222
-e295500925.826784
-r1
-xCompileC
-xbuild/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o
-x/Users/anthonydestefano/Desktop/iPadFarmHero/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/anthonydestefano/Desktop/iPadFarmHero/main.m295500925#295500925#0(0"0(0#0#51"/Users/anthonydestefano/Desktop/iPadFarmHero/main.m4300911832#2305"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap -F/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/include -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386 -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources -include /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/anthonydestefano/Desktop/iPadFarmHero/main.m -o /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/main.o0#
-
-CCopyPlistFile "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist" PhoneGap.plist
-r0
-
-CCopyPlistFile "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist" PhoneGap.plist
-s295500166.385175
-e295500166.662412
-r1
-xCopyPlistFile
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist
-xPhoneGap.plist
-lSLF07#2@19"Copy PhoneGap.plist295500166#295500166#0(0"0(0#0#86"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/PhoneGap.plist4300911832#531"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"0#
-
-CCopyPlistFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist PhoneGap.plist
-s295500924.986310
-e295500925.033987
-r1
-xCopyPlistFile
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PhoneGap.plist
-xPhoneGap.plist
-lSLF07#2@19"Copy PhoneGap.plist295500924#295500925#0(0"0(0#0#59"/Users/anthonydestefano/Desktop/iPadFarmHero/PhoneGap.plist4300911832#473"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png Default-Landscape.png
-s295500925.013616
-e295500925.023558
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Landscape.png
-xDefault-Landscape.png
-lSLF07#2@26"Copy Default-Landscape.png295500925#295500925#0(0"0(0#0#66"/Users/anthonydestefano/Desktop/iPadFarmHero/Default-Landscape.png4300911832#555"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/Default-Landscape.png /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png Default-Portrait.png
-s295500925.014529
-e295500925.019775
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/Default-Portrait.png
-xDefault-Portrait.png
-lSLF07#2@25"Copy Default-Portrait.png295500925#295500925#0(0"0(0#0#65"/Users/anthonydestefano/Desktop/iPadFarmHero/Default-Portrait.png4300911832#554"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/Default-Portrait.png /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png Default.png
-s295500924.983955
-e295500924.992142
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png
-xDefault.png
-lSLF07#2@16"Copy Default.png295500924#295500924#0(0"0(0#0#56"/Users/anthonydestefano/Desktop/iPadFarmHero/Default.png4300911832#545"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/Default.png /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION /Users/anthonydestefano/Documents/PhoneGapLib/VERSION
-s295500924.983342
-e295500924.988852
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/VERSION
-x/Users/anthonydestefano/Documents/PhoneGapLib/VERSION
-lSLF07#2@58"Copy /Users/anthonydestefano/Documents/PhoneGapLib/VERSION295500924#295500924#0(0"0(0#0#53"/Users/anthonydestefano/Documents/PhoneGapLib/VERSION4300911832#542"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Documents/PhoneGapLib/VERSION /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png icon-72.png
-s295500925.012503
-e295500925.019094
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/icon-72.png
-xicon-72.png
-lSLF07#2@16"Copy icon-72.png295500925#295500925#0(0"0(0#0#56"/Users/anthonydestefano/Desktop/iPadFarmHero/icon-72.png4300911832#545"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/icon-72.png /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png icon.png
-s295500924.984546
-e295500924.995259
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/icon.png
-xicon.png
-lSLF07#2@13"Copy icon.png295500924#295500924#0(0"0(0#0#53"/Users/anthonydestefano/Desktop/iPadFarmHero/icon.png4300911832#542"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/icon.png /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CCpResource build/Debug-iphonesimulator/___PROJECTNAME___.app/www www
-s295500924.982653
-e295500925.012387
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/___PROJECTNAME___.app/www
-xwww
-lSLF07#2@8"Copy www295500924#295500925#0(0"0(0#0#48"/Users/anthonydestefano/Desktop/iPadFarmHero/www4300911832#537"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/anthonydestefano/Desktop/iPadFarmHero/www /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
-CGenerateDSYMFile "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM" "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___"
-s295500685.772410
-e295500685.817879
-r1
-xGenerateDSYMFile
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500685#295500685#0(0"0(0#0#126"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___4300911832#541"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___" -o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM"0#
-
-CGenerateDSYMFile "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM" "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___"
-s295500167.570308
-e295500167.615734
-r1
-xGenerateDSYMFile
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500167#295500167#0(0"0(0#0#139"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___4300911832#580"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___" -o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM"0#
-
-CGenerateDSYMFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-s295500925.941076
-e295500925.996645
-r1
-xGenerateDSYMFile
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500925#295500925#0(0"0(0#0#112"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___4300911832#493"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___ -o /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM0#
-
-CLd "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___" normal i386
-s295500685.660226
-e295500685.772298
-r1
-xLd
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-xnormal
-xi386
-lSLF07#2@131"Link /Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500685#295500685#0(0"0(0#0#0"4300911832#1444"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator" "-F/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator" -filelist "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList" -mmacosx-version-min=10.5 -all_load -Obj-C /Users/anthonydestefano/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___"0#
-
-CLd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___" normal i386
-s295500167.514129
-e295500167.570196
-r1
-xLd
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-xnormal
-xi386
-lSLF07#2@144"Link /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500167#295500167#0(0"0(0#0#0"4300911832#1509"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator" "-F/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator" -filelist "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList" -mmacosx-version-min=10.5 -all_load -Obj-C /Users/anthonydestefano/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___"0#
-
-CLd /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___ normal i386
-s295500925.864986
-e295500925.940953
-r1
-xLd
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___
-xnormal
-xi386
-lSLF07#2@117"Link /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___295500925#295500925#0(0"0(0#0#0"4300911832#1364"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator -F/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator -filelist /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList -mmacosx-version-min=10.5 -all_load -Obj-C /Users/anthonydestefano/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___0#
-
-CPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh"
-s295500684.794080
-e295500684.826574
-r1
-xPhaseScriptExecution
-xCopy PhoneGap Javascript
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-omake: Nothing to be done for `all'.
-ocp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/PhoneGap-based Application/www/phonegap.js
-lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'295500684#295500684#0(184"make: Nothing to be done for `all'.cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/PhoneGap-based Application/www/phonegap.js2(13@36"make: Nothing to be done for `all'.295500684#0#36#0(1@0"0(13@148"cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/PhoneGap-based Application/www/phonegap.js295500684#36#148#0(1@0"0(0#0#0"4300911832#19135"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv BUILD_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal"    setenv OBJROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo"    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER___-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/DerivedSources"    setenv PROJECT_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv PROJECT_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAME___-iPad.xcodeproj"    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build"    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv SRCROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories"    setenv SYMROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh\""0#
-
-CPhaseScriptExecution "Copy PhoneGap Javascript" "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh"
-s295500220.285226
-e295500220.317187
-r1
-xPhaseScriptExecution
-xCopy PhoneGap Javascript
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-omake: Nothing to be done for `all'.
-ocp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/www/phonegap.js
-lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'295500220#295500220#0(197"make: Nothing to be done for `all'.cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/www/phonegap.js2(13@36"make: Nothing to be done for `all'.295500220#0#36#0(1@0"0(13@161"cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/www/phonegap.js295500220#36#161#0(1@0"0(0#0#0"4300911832#19707"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv BUILD_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal"    setenv OBJROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo"    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER___-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/DerivedSources"    setenv PROJECT_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PROJECT_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAME___-iPad.xcodeproj"    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build"    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv SRCROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories"    setenv SYMROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh\""0#
-
-CPhaseScriptExecution "Copy PhoneGap Javascript" /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-s295500924.934270
-e295500924.964436
-r1
-xPhaseScriptExecution
-xCopy PhoneGap Javascript
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh
-omake: Nothing to be done for `all'.
-ocp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/iPadFarmHero/www/phonegap.js
-lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'295500924#295500924#0(170"make: Nothing to be done for `all'.cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/iPadFarmHero/www/phonegap.js2(13@36"make: Nothing to be done for `all'.295500924#0#36#0(1@0"0(13@134"cp /Users/anthonydestefano/Documents/PhoneGapLib/javascripts/phonegap.js /Users/anthonydestefano/Desktop/iPadFarmHero/www/phonegap.js295500924#36#134#0(1@0"0(0#0#0"4300911832#18435"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv BUILD_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal    setenv OBJROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/DerivedSources    setenv PROJECT_DIR /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PROJECT_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAME___-iPad.xcodeproj    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero    setenv SRCROOT /Users/anthonydestefano/Desktop/iPadFarmHero    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories    setenv SYMROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-30E9A9A110B758320022D3BA.sh0#
-
-CPhaseScriptExecution "Touch www folder" "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh"
-s295500684.826670
-e295500684.840913
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-lSLF07#2@42"Run custom shell script 'Touch www folder'295500684#295500684#0(0"0(0#0#0"4300911832#19135"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv BUILD_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal"    setenv OBJROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo"    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER___-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/DerivedSources"    setenv PROJECT_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv PROJECT_FILE_PATH "/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAME___-iPad.xcodeproj"    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build"    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv SRCROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories"    setenv SYMROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILES_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILE_DIR "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_ROOT "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh\""0#
-
-CPhaseScriptExecution "Touch www folder" "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh"
-s295500220.317279
-e295500220.332503
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-lSLF07#2@42"Run custom shell script 'Touch www folder'295500220#295500220#0(0"0(0#0#0"4300911832#19707"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv BUILD_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal"    setenv OBJROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo"    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER___-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/DerivedSources"    setenv PROJECT_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PROJECT_FILE_PATH "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAME___-iPad.xcodeproj"    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build"    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv SRCROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories"    setenv SYMROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator"    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILES_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_FILE_DIR "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build"    setenv TEMP_ROOT "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh\""0#
-
-CPhaseScriptExecution "Touch www folder" /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-s295500924.964534
-e295500924.982180
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh
-lSLF07#2@42"Run custom shell script 'Touch www folder'295500924#295500924#0(0"0(0#0#0"4300911832#18435"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER anthonydestefano    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv BUILD_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ___PROJECTNAME___.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/___PROJECTNAME___-iPad.dst    setenv DWARF_DSYM_FILE_NAME ___PROJECTNAME___.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ___PROJECTNAME___.app/Executables    setenv EXECUTABLE_FOLDER_PATH ___PROJECTNAME___.app    setenv EXECUTABLE_NAME ___PROJECTNAME___    setenv EXECUTABLE_PATH ___PROJECTNAME___.app/___PROJECTNAME___    setenv FILE_LIST /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ___PROJECTNAME___.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ___PROJECTNAMEASIDENTIFIER____Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ___PROJECTNAME___.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/___PROJECTNAME___-iPad.dst/Users/anthonydestefano/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER anthonydestefano    setenv INSTALL_PATH /Users/anthonydestefano/Applications    setenv INSTALL_ROOT /tmp/___PROJECTNAME___-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ___PROJECTNAME___.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal/i386/___PROJECTNAME___.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Objects-normal    setenv OBJROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ___PROJECTNAME___.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/anthonydestefano/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PkgInfo    setenv PKGINFO_PATH ___PROJECTNAME___.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ___PROJECTNAME___.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/PrivateHeaders    setenv PRODUCT_NAME ___PROJECTNAME___    setenv PRODUCT_SETTINGS_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER___-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ___PROJECTNAME___-iPad    setenv PROJECT_DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/DerivedSources    setenv PROJECT_DIR /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PROJECT_FILE_PATH /Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAME___-iPad.xcodeproj    setenv PROJECT_NAME ___PROJECTNAME___-iPad    setenv PROJECT_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build    setenv PUBLIC_HEADERS_FOLDER_PATH ___PROJECTNAME___.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ___PROJECTNAME___.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ___PROJECTNAME___.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ___PROJECTNAME___.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero    setenv SRCROOT /Users/anthonydestefano/Desktop/iPadFarmHero    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/SymbolRepositories    setenv SYMROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME ___PROJECTNAME___    setenv TARGET_BUILD_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator    setenv TARGET_NAME ___PROJECTNAME___    setenv TARGET_TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_FILES_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_FILE_DIR /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build    setenv TEMP_ROOT /Users/anthonydestefano/Desktop/iPadFarmHero/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ___PROJECTNAME___.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER anthonydestefano    setenv USER_APPS_DIR /Users/anthonydestefano/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/anthonydestefano/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/anthonydestefano/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ___PROJECTNAME___.app/version.plist    setenv VERSION_INFO_BUILDER anthonydestefano    setenv VERSION_INFO_FILE ___PROJECTNAME____vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:___PROJECTNAME___  PROJECT:___PROJECTNAME___-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ___PROJECTNAME___.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/Script-304B58A110DAC018002A0835.sh0#
-
-CProcessInfoPlistFile "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist" ___PROJECTNAMEASIDENTIFIER___-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist" ___PROJECTNAMEASIDENTIFIER___-Info.plist
-s295500166.321917
-e295500166.326359
-r1
-xProcessInfoPlistFile
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist
-x___PROJECTNAMEASIDENTIFIER___-Info.plist
-lSLF07#2@48"Process ___PROJECTNAMEASIDENTIFIER___-Info.plist295500166#295500166#0(0"0(0#0#112"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER___-Info.plist4300911832#688"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ___PROJECTNAMEASIDENTIFIER___-Info.plist -genpkginfo "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist"0#
-
-CProcessInfoPlistFile /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist ___PROJECTNAMEASIDENTIFIER___-Info.plist
-s295500924.930176
-e295500924.934166
-r1
-xProcessInfoPlistFile
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist
-x___PROJECTNAMEASIDENTIFIER___-Info.plist
-lSLF07#2@48"Process ___PROJECTNAMEASIDENTIFIER___-Info.plist295500924#295500924#0(0"0(0#0#85"/Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER___-Info.plist4300911832#601"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ___PROJECTNAMEASIDENTIFIER___-Info.plist -genpkginfo /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist0#
-
-CProcessPCH /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500166.662558
-e295500167.413677
-r1
-xProcessPCH
-x/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-x___PROJECTNAMEASIDENTIFIER____Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Precompile ___PROJECTNAMEASIDENTIFIER____Prefix.pch295500166#295500167#0(0"0(0#0#112"/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch4300911832#2478"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -c "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch" -o /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-bnngjzfqfanuhicjhdwxylxtwhad/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500684.849933
-e295500685.567776
-r1
-xProcessPCH
-x/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-x___PROJECTNAMEASIDENTIFIER____Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Precompile ___PROJECTNAMEASIDENTIFIER____Prefix.pch295500684#295500685#0(0"0(0#0#99"/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch4300911832#2348"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap" -iquote "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap" "-F/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator" -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/include" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386" "-I/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources" -c "/Users/anthonydestefano/Desktop/PhoneGap-based Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch" -o /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-eghmejdmeutujidruuncmdjjbfyn/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s295500925.034100
-e295500925.764948
-r1
-xProcessPCH
-x/var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
-x___PROJECTNAMEASIDENTIFIER____Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Precompile ___PROJECTNAMEASIDENTIFIER____Prefix.pch295500925#295500925#0(0"0(0#0#85"/Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER____Prefix.pch4300911832#2188"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-generated-files.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap -iquote /Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-project-headers.hmap -F/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator -iquote/Users/anthonydestefano/Documents/PhoneGapLib/Classes -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/include -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources/i386 -I/Users/anthonydestefano/Desktop/iPadFarmHero/build/___PROJECTNAME___-iPad.build/Debug-iphonesimulator/___PROJECTNAME___.build/DerivedSources -c /Users/anthonydestefano/Desktop/iPadFarmHero/___PROJECTNAMEASIDENTIFIER____Prefix.pch -o /var/folders/vt/vtPIzQSwEqK-r+aIsBcAo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-ghjsrpzgjkyisgauwzplaaexchxe/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch0#
-
-CTouch "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"
-s295500685.817989
-e295500685.821609
-r1
-xTouch
-x/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app
-lSLF07#2@114"Touch /Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app295500685#295500685#0(0"0(0#0#0"4300911832#394"    cd "/Users/anthonydestefano/Desktop/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/anthonydestefano/Desktop/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"0#
-
-CTouch "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"
-s295500218.531345
-e295500218.534245
-r1
-xTouch
-x/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app
-lSLF07#2@127"Touch /Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app295500218#295500218#0(0"0(0#0#0"4300911832#420"    cd "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/anthonydestefano/Desktop/phoneGapiPad/PhoneGap-based Application/build/Debug-iphonesimulator/___PROJECTNAME___.app"0#
-
-CTouch /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app
-s295500925.996749
-e295500925.999995
-r1
-xTouch
-x/Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app
-lSLF07#2@100"Touch /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app295500925#295500926#0(0"0(0#0#0"4300911832#362"    cd /Users/anthonydestefano/Desktop/iPadFarmHero    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/anthonydestefano/Desktop/iPadFarmHero/build/Debug-iphonesimulator/___PROJECTNAME___.app0#
-
