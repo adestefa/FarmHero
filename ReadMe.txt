@@ -11,6 +11,7 @@ impact on success of the farmer.This game does not use Flash or HTML5, just simp
 I developed. I ported the code using PhoneGap for the iPhone and iPad platforms.
 
 
+An early playable version can be found here: http://adestefa.com/farmhero/
 
 
 
