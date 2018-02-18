@@ -2,7 +2,11 @@
 # FarmHero
 
 After witnessing the wild success of both Guitar Hero and Farmville, I started playing with the idea of mixing them together 
-into something new. I wanted to combine fun parts that stand out of each game. I liked the timed selection of colored patterns from Guitar Hero, with economy and actions of farming. Play cycles through the player purchasing seeds, stratigically planting them, waiting for them to grow, then harvesting them at the right time and onced enough collected they can sell them at a profit. Crops grow by the cycle of the Sun at the top of the screen. Each time the Sun moves across the field all crops grow and change color. Crops grow at different rates based on their type. They also have different value at the market for sale so selecting and buying the right seeds, while also being fast enough to harvest all you plant before they die has a big impact on success of the farmer.This game does not use Flash or HTML5, just simple HTML, CSS and custom JavaScript library
+into something new. I wanted to combine fun parts that stand out of each game. I liked the timed selection of colored patterns from Guitar Hero, with economy and actions of farming. Play cycles through the player purchasing seeds, strategically planting them, waiting for them to grow, then harvesting them at the right time, and onced enough are collected they can sell them at a profit. 
+
+Crops grow by the cycle of the Sun at the top of the screen. Each time the Sun moves across the field all crops grow and change color. Crops grow at different rates based on their type. They also have different values at the market for sale so selecting and buying the right seeds, while also being fast enough to harvest all you plant before they die has a big impact on success of the farmer. 
+
+This game does not use Flash or HTML5, just simple HTML, CSS and custom JavaScript library
 I developed. I ported the code using PhoneGap for the iPhone and iPad platforms.
 
 
