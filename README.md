@@ -15,7 +15,7 @@ I developed. I ported the code using PhoneGap for the iPhone and iPad platforms.
 ![alt tag](https://adestefawp.files.wordpress.com/2015/05/farmhero.png)
 
 
-An early playable version can be found here: http://adestefa.com/farmhero/
+An early playable version can be found here: http://adestefa.com/FH/FarmHero/www/
 
 
 
